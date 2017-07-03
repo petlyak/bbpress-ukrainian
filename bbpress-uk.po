@@ -1,0 +1,4598 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-28 01:22+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: bbPress 2.5.11 Ukrainian language\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Sanya Petlyak <sanya.petlyak@gmail.com>\n"
+"Language-Team: Sanya Petlyak <sanya.petlyak@gmail.com>\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. translators: user role
+#: includes/common/locale.php:56
+msgctxt "User role"
+msgid "Blocked"
+msgstr "Заблокований"
+
+#. translators: user role
+#: includes/common/locale.php:53
+msgctxt "User role"
+msgid "Spectator"
+msgstr "Читач"
+
+#. translators: user role
+#: includes/common/locale.php:50
+msgctxt "User role"
+msgid "Participant"
+msgstr "Участник"
+
+#. translators: user role
+#: includes/common/locale.php:47
+msgctxt "User role"
+msgid "Moderator"
+msgstr "Модератор"
+
+#. translators: user role
+#: includes/common/locale.php:44
+msgctxt "User role"
+msgid "Keymaster"
+msgstr "Хранитель"
+
+#. Author of the plugin/theme
+msgid "The bbPress Community"
+msgstr "Спільнота bbPress"
+
+#. Plugin Name of the plugin/theme
+msgid "bbPress"
+msgstr "bbPress"
+
+#. Description of the plugin/theme
+msgid "bbPress is forum software with a twist from the creators of WordPress."
+msgstr "bbPress — форум від розробників WordPress."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://bbpress.org"
+msgstr "https://bbpress.org"
+
+#: includes/admin/tools.php:1148
+msgid "No reply positions to recalculate!"
+msgstr "Нема позицій відповідей для перерахунку!"
+
+#: includes/admin/tools.php:1147
+msgid "Recalculating reply menu order &hellip; %s"
+msgstr "Перерахунок порядок меню відповіді &hellip; %s"
+
+#: includes/admin/tools.php:166
+msgid "Recalculate the position of each reply"
+msgstr "Перерахувати положення кожної відповіді"
+
+#: templates/default/extras/page-topic-tags.php:22
+msgid "<p>This is a collection of tags that are currently popular on our forums.</p>"
+msgstr "<p>Набір міток, в даний час популярних на наших форумах.</p>"
+
+#: templates/default/extras/page-forum-statistics.php:22
+msgid "<p>Here are the statistics and popular topics of our forums.</p>"
+msgstr "<p>Статистика та популярні теми ваших форумів.</p>"
+
+#: templates/default/bbpress-functions.php:426
+msgid "Please login to subscribe to this topic."
+msgstr "Будь ласка, авторизуйтеся для підписки на цю тему."
+
+#: templates/default/bbpress-functions.php:375
+#: templates/default/bbpress-functions.php:443
+msgid "The topic could not be found."
+msgstr "Тема не знайдена."
+
+#: templates/default/bbpress-functions.php:358
+msgid "Please login to make this topic a favorite."
+msgstr "Будь ласка, авторизуйтеся, щоб додати теми в обране."
+
+#: templates/default/bbpress-functions.php:353
+msgid "Favorites are no longer active."
+msgstr "Вибране більше не активно."
+
+#: templates/default/bbpress-functions.php:320
+#: templates/default/bbpress-functions.php:388
+#: templates/default/bbpress-functions.php:456
+msgid "The request was unsuccessful. Please try again."
+msgstr "Запит виявився невдалим. Будь ласка, спробуйте ще раз."
+
+#: templates/default/bbpress-functions.php:312
+#: templates/default/bbpress-functions.php:380
+#: templates/default/bbpress-functions.php:448
+msgid "Are you sure you meant to do that?"
+msgstr "Ви впевнені, що хочете це зробити?"
+
+#: templates/default/bbpress-functions.php:307
+msgid "The forum could not be found."
+msgstr "Форум не знайдений."
+
+#: templates/default/bbpress-functions.php:299
+#: templates/default/bbpress-functions.php:367
+#: templates/default/bbpress-functions.php:435
+msgid "You do not have permission to do this."
+msgstr "У вас немає дозволів для цієї дії."
+
+#: templates/default/bbpress-functions.php:290
+msgid "Please login to subscribe to this forum."
+msgstr "Будь ласка, увійдіть для того щоб підписатися на цей форум."
+
+#: templates/default/bbpress-functions.php:285
+#: templates/default/bbpress-functions.php:421
+msgid "Subscriptions are no longer active."
+msgstr "Підписки більше не активні."
+
+#: templates/default/bbpress-functions.php:248
+#: templates/default/bbpress-functions.php:257
+msgid "Something went wrong. Refresh your browser and try again."
+msgstr "Щось пішло не так. Оновіть сторінку в браузері і спробуйте ще раз."
+
+#: templates/default/bbpress/user-topics-created.php:28
+msgid "This user has not created any topics."
+msgstr "Цей користувач ще не створив жодної теми."
+
+#: templates/default/bbpress/user-topics-created.php:28
+msgid "You have not created any topics."
+msgstr "Ви ще не створили жодної теми."
+
+#: templates/default/bbpress/user-topics-created.php:15
+msgid "Forum Topics Started"
+msgstr "Розпочаті теми"
+
+#: templates/default/bbpress/user-subscriptions.php:47
+msgid "This user is not currently subscribed to any topics."
+msgstr "У цього користувача немає підписок на теми."
+
+#: templates/default/bbpress/user-subscriptions.php:47
+msgid "You are not currently subscribed to any topics."
+msgstr "В даний час Ви не підписані на жодні теми."
+
+#: templates/default/bbpress/user-subscriptions.php:28
+msgid "This user is not currently subscribed to any forums."
+msgstr "Цей користувач поки не підписаний на жодний форум."
+
+#: templates/default/bbpress/user-subscriptions.php:28
+msgid "You are not currently subscribed to any forums."
+msgstr "В даний час Ви не підписані на жодний форум."
+
+#: templates/default/bbpress/user-subscriptions.php:19
+msgid "Subscribed Forums"
+msgstr "Підписки на форуми"
+
+#: templates/default/bbpress/user-replies-created.php:28
+msgid "This user has not replied to any topics."
+msgstr "Користувач не відповів на жодну тему."
+
+#: templates/default/bbpress/user-replies-created.php:28
+msgid "You have not replied to any topics."
+msgstr "Ви ще не відповідали в темах."
+
+#: templates/default/bbpress/user-replies-created.php:15
+msgid "Forum Replies Created"
+msgstr "Відповіді в темах"
+
+#: templates/default/bbpress/user-profile.php:26
+msgid "Replies Created: %s"
+msgstr "Відповідей написано: %s"
+
+#: templates/default/bbpress/user-profile.php:25
+msgid "Topics Started: %s"
+msgstr "Тем розпочато: %s"
+
+#: templates/default/bbpress/user-profile.php:24
+msgid "Forum Role: %s"
+msgstr "Роль форуму: %s"
+
+#: templates/default/bbpress/user-favorites.php:28
+msgid "This user has no favorite topics."
+msgstr "Цей користувач не додавав теми в обране."
+
+#: templates/default/bbpress/user-favorites.php:28
+msgid "You currently have no favorite topics."
+msgstr "Ви ще не додали в обране жодної теми."
+
+#: templates/default/bbpress/user-favorites.php:15
+msgid "Favorite Forum Topics"
+msgstr "Вибрані теми"
+
+#: templates/default/bbpress/user-details.php:58
+msgid "%s's Subscriptions"
+msgstr "Підписки користувача %s"
+
+#: templates/default/bbpress/user-details.php:48
+msgid "%s's Favorites"
+msgstr "Вибране користувача %s"
+
+#: templates/default/bbpress/user-details.php:41
+msgid "%s's Replies Created"
+msgstr "Відповіді користувача %s"
+
+#: templates/default/bbpress/user-details.php:35
+msgid "%s's Topics Started"
+msgstr "Теми користувача %s"
+
+#: templates/default/bbpress/user-details.php:29
+#: templates/default/bbpress/user-profile.php:15
+msgid "Profile"
+msgstr "Профіль"
+
+#: templates/default/bbpress/user-details.php:29
+msgid "%s's Profile"
+msgstr "Профіль користувача %s"
+
+#: templates/default/bbpress/loop-single-topic.php:68
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr "в: <a href=\"%1$s\">%2$s</a>"
+
+#: templates/default/bbpress/loop-single-topic.php:60
+msgid "Started by: %1$s"
+msgstr "Автор: %1$s"
+
+#: templates/default/bbpress/loop-single-reply.php:21
+msgid "in reply to: "
+msgstr "у відповідь на:"
+
+#: templates/default/bbpress/loop-search.php:22
+#: templates/default/bbpress/loop-search.php:44
+msgid "Search Results"
+msgstr "Результати пошуку"
+
+#: templates/default/bbpress/loop-search-topic.php:37
+msgid "in forum "
+msgstr "в форумі"
+
+#: templates/default/bbpress/loop-search-topic.php:33
+msgid "in group forum "
+msgstr "в форумі групи"
+
+#: templates/default/bbpress/loop-search-topic.php:26
+msgid "Topic: "
+msgstr "Тема:"
+
+#: templates/default/bbpress/loop-search-reply.php:24
+msgid "In reply to: "
+msgstr "У відповідь на:"
+
+#: templates/default/bbpress/loop-search-forum.php:26
+msgid "Forum: "
+msgstr "Форум:"
+
+#: templates/default/bbpress/loop-search-forum.php:16
+msgid "Last updated %s"
+msgstr "Останнє оновлення %s"
+
+#: templates/default/bbpress/form-user-roles.php:13
+msgid "Blog Role"
+msgstr "Роль блогу"
+
+#: templates/default/bbpress/form-user-register.php:18
+msgid "We use your email address to email you a secure password and verify your account."
+msgstr "На Вашу електронну адресу e-mail буде відправлено листа з безпечним паролем і посиланням для активації облікового запису."
+
+#: templates/default/bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr "Ваше ім'я користувача повинно бути унікальним і не може бути змінено пізніше."
+
+#: templates/default/bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr "Створити акаунт"
+
+#: templates/default/bbpress/form-user-lost-pass.php:27
+msgid "Reset My Password"
+msgstr "Скинути мій пароль"
+
+#: templates/default/bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr "Ім'я користувача або Email"
+
+#: templates/default/bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr "Запам'ятати мене"
+
+#: templates/default/bbpress/form-user-edit.php:178
+msgid "Update User"
+msgstr "Оновити Користувача"
+
+#: templates/default/bbpress/form-user-edit.php:178
+msgid "Update Profile"
+msgstr "Оновити профіль"
+
+#: templates/default/bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr "Надати цьому користувачу права Супер Адміністратора мережі."
+
+#: templates/default/bbpress/form-user-edit.php:153
+msgid "Network Role"
+msgstr "Роль мережі"
+
+#: templates/default/bbpress/form-user-edit.php:143
+#: templates/default/bbpress/form-user-edit.php:146
+msgid "User Role"
+msgstr "Роль користувача"
+
+#: templates/default/bbpress/form-user-edit.php:133
+msgid "Your password should be at least ten characters long. Use upper and lower case letters, numbers, and symbols to make it even stronger."
+msgstr "Ваш пароль повинен бути не менше десяти символів. Використовуйте верхній і нижній регістр букв, цифри і символи, щоб зробити його ще надійнішим."
+
+#: templates/default/bbpress/form-user-edit.php:130
+msgid "Type your new password again."
+msgstr "Введіть новий пароль ще раз."
+
+#: templates/default/bbpress/form-user-edit.php:127
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Якщо ви хочете змінити пароль, введіть новий. В іншому випадку залиште це поле порожнім."
+
+#: templates/default/bbpress/form-user-edit.php:124
+msgid "New Password"
+msgstr "Новий пароль"
+
+#: templates/default/bbpress/form-user-edit.php:115
+msgid "There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
+msgstr "Змінити адресу електронної пошти для <code>%1$s</code>. <a href=\"%2$s\">Відміна</a>"
+
+#: templates/default/bbpress/form-user-edit.php:90
+#: templates/default/bbpress/form-user-edit.php:93
+msgid "Account"
+msgstr "Обліковий запис"
+
+#: templates/default/bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr "Біографія"
+
+#: templates/default/bbpress/form-user-edit.php:74
+#: templates/default/bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr "Про користувача"
+
+#: templates/default/bbpress/form-user-edit.php:74
+#: templates/default/bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr "Про мене"
+
+#: templates/default/bbpress/form-user-edit.php:49
+#: templates/default/bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr "Контакти"
+
+#: templates/default/bbpress/form-user-edit.php:39
+msgid "Display Name"
+msgstr "Псевдонім"
+
+#: templates/default/bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr "Нік"
+
+#: templates/default/bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: templates/default/bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr "Ім'я"
+
+#: templates/default/bbpress/form-topic.php:234
+msgid "You must be logged in to create new topics."
+msgstr "Ви повинні увійти, щоб створювати нові теми."
+
+#: templates/default/bbpress/form-topic.php:234
+msgid "You cannot create new topics."
+msgstr "Ви не можете створити нову тему."
+
+#: templates/default/bbpress/form-topic.php:145
+msgid "Topic Status:"
+msgstr "Статус теми:"
+
+#: templates/default/bbpress/form-topic.php:133
+msgid "Topic Type:"
+msgstr "Тип теми:"
+
+#: templates/default/bbpress/form-topic.php:101
+msgid "Topic Tags:"
+msgstr "Мітки теми:"
+
+#: templates/default/bbpress/form-topic.php:75
+msgid "Topic Title (Maximum Length: %d):"
+msgstr "Заголовок теми (Максимальна довжина: %d):"
+
+#: templates/default/bbpress/form-topic.php:53
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr "Цей форум закритий для нових тем, але Ваше повідомлення ще можна опублікувати."
+
+#: templates/default/bbpress/form-topic.php:43
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr "Створити нову тему в розділі «%s»"
+
+#: templates/default/bbpress/form-topic-tag.php:101
+msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Ви впевнені, що хочете видалити мітку «%s»? Цю дію не можна скасувати."
+
+#: templates/default/bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr "Будь-які посилання на цю мітку не працюватимуть."
+
+#: templates/default/bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr "Видалення міток не може бути скасовано."
+
+#: templates/default/bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr "Це не видалить ваші теми. Тільки мітка видаляється."
+
+#: templates/default/bbpress/form-topic-tag.php:73
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr "Ви впевнені, що хочете об'єднати мітку «%s» з вказаною міткою?"
+
+#: templates/default/bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr "Існуючі мітки:"
+
+#: templates/default/bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr "Злиття міток не може бути скасовано."
+
+#: templates/default/bbpress/form-topic-tag.php:45
+msgid "Update"
+msgstr "Оновити"
+
+#: templates/default/bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr "Ярлик:"
+
+#: templates/default/bbpress/form-topic-tag.php:29
+msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgstr "Зміна ярлика впливає на його постійне посилання. Будь-які посилання зі старим ярликом перестануть працювати."
+
+#: templates/default/bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr "Залиште ярлик порожнім для автоматичної генерації."
+
+#: templates/default/bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: templates/default/bbpress/form-topic-tag.php:18
+msgid "Manage Tag: \"%s\""
+msgstr "Управління міткою: «%s»"
+
+#: templates/default/bbpress/form-topic-split.php:85
+msgid "Copy topic tags to the new topic"
+msgstr "Копіювати мітки теми в нову тему"
+
+#: templates/default/bbpress/form-topic-split.php:80
+msgid "Copy favoriters to the new topic"
+msgstr "Копіювати обрані в нову тему"
+
+#: templates/default/bbpress/form-topic-split.php:75
+msgid "Copy subscribers to the new topic"
+msgstr "Копіювати підписників у нову тему"
+
+#: templates/default/bbpress/form-topic-split.php:42
+msgid "Split: %s"
+msgstr "Відокремлено: %s"
+
+#: templates/default/bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr "Спосіб поділу"
+
+#: templates/default/bbpress/form-topic-split.php:33
+msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgstr "При використанні існуючого варіанту теми, відповіді обох тем будуть об'єднані в хронологічному порядку. Порядок об'єднання відповідей залежить від часу і дати їх розміщення."
+
+#: templates/default/bbpress/form-topic-split.php:29
+msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgstr "При поділі теми, ви ділите її на дві частини, починаючи з обраної вами відповіді. Виберіть відповідь, яка використовується в якості нової теми з новим заголовком, або з'єднайте ці відповіді з існуючою темою."
+
+#: templates/default/bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr "Розділити тему «%s»"
+
+#: templates/default/bbpress/form-topic-merge.php:106
+#: templates/default/bbpress/form-topic-split.php:110
+msgid "You cannot edit this topic."
+msgstr "Ви не можете редагувати цю тему."
+
+#: templates/default/bbpress/form-topic-merge.php:106
+#: templates/default/bbpress/form-topic-split.php:110
+msgid "You do not have the permissions to edit this topic!"
+msgstr "У вас немає прав для редагування цієї теми!"
+
+#: templates/default/bbpress/form-topic-merge.php:81
+msgid "Merge topic tags"
+msgstr "Об'єднати мітки теми"
+
+#: templates/default/bbpress/form-topic-merge.php:76
+msgid "Merge topic favoriters"
+msgstr "Об'єднати обране теми"
+
+#: templates/default/bbpress/form-topic-merge.php:71
+msgid "Merge topic subscribers"
+msgstr "Об'єднати підписників теми"
+
+#: templates/default/bbpress/form-topic-merge.php:64
+#: templates/default/bbpress/form-topic-split.php:68
+msgid "Topic Extras"
+msgstr "Додатково"
+
+#: templates/default/bbpress/form-topic-merge.php:56
+msgid "There are no other topics in this forum to merge with."
+msgstr "В цьому форумі немає доступних для об'єднання тем."
+
+#: templates/default/bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr "Об'єднати з цією темою:"
+
+#: templates/default/bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr "Призначення"
+
+#: templates/default/bbpress/form-topic-merge.php:34
+msgid "All replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted. If the destination topic was created after this one, it's post date will be updated to second earlier than this one."
+msgstr "Всі відповіді в обидві теми будуть об'єднані в хронологічному порядку. Порядок об'єднання відповідей залежно від часу та дати, коли вони були розміщені. Якщо тема призначення була створена після розміщення цього повідомлення, дата буде оновлена до більш ранньої."
+
+#: templates/default/bbpress/form-topic-merge.php:30
+msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgstr "Щоб зберегти цю тему в якості ведучої, перейдіть на іншу тему і використайте засіб об'єднання звідти."
+
+#: templates/default/bbpress/form-topic-merge.php:29
+msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgstr "Виберіть тему для об'єднання з поточною. Тема призначення залишатиметься провідною темою, і ця буде змінена у відповідь."
+
+#: templates/default/bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr "Об'єднати тему «%s»"
+
+#: templates/default/bbpress/form-search.php:14
+msgid "Search for:"
+msgstr "Пошук:"
+
+#: templates/default/bbpress/form-reply.php:174
+msgid "You must be logged in to reply to this topic."
+msgstr "Для відповіді в цій темі необхідно авторизуватись."
+
+#: templates/default/bbpress/form-reply.php:174
+msgid "You cannot reply to this topic."
+msgstr "Ви не можете відповісти в цій темі."
+
+#: templates/default/bbpress/form-reply.php:166
+#: templates/default/bbpress/form-topic.php:226
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr "Форум «%s» закритий для нових тем і відповідей."
+
+#: templates/default/bbpress/form-reply.php:158
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr "Тема «% s» закрита для нових відповідей."
+
+#: templates/default/bbpress/form-reply.php:118
+#: templates/default/bbpress/form-topic.php:188
+msgid "Optional reason for editing:"
+msgstr "Причина редагування:"
+
+#: templates/default/bbpress/form-reply.php:114
+#: templates/default/bbpress/form-topic.php:184
+msgid "Keep a log of this edit:"
+msgstr "Зберегти в журнал цю зміну:"
+
+#: templates/default/bbpress/form-reply.php:97
+#: templates/default/bbpress/form-topic.php:168
+msgid "Notify me of follow-up replies via email"
+msgstr "Інформувати мене про нові відповіді по електронній пошті."
+
+#: templates/default/bbpress/form-reply.php:93
+#: templates/default/bbpress/form-topic.php:164
+msgid "Notify the author of follow-up replies via email"
+msgstr "Повідомляти автора про відповіді по e-mail"
+
+#: templates/default/bbpress/form-reply.php:75
+msgid "Tags:"
+msgstr "Мітки:"
+
+#: templates/default/bbpress/form-reply.php:36
+msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
+msgstr "Ця тема закрита для нових відповідей, але ваші права дозволяють вам відповісти."
+
+#: templates/default/bbpress/form-reply-move.php:85
+msgid "You cannot edit this reply."
+msgstr "Ви не можете редагувати цю відповідь."
+
+#: templates/default/bbpress/form-reply-move.php:85
+msgid "You do not have the permissions to edit this reply!"
+msgstr "У вас немає прав для редагування цієї відповіді!"
+
+#: templates/default/bbpress/form-reply-move.php:68
+#: templates/default/bbpress/form-topic-merge.php:89
+#: templates/default/bbpress/form-topic-split.php:93
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr "<strong>УВАГА:</strong> Ця операція не може бути скасована."
+
+#: templates/default/bbpress/form-reply-move.php:49
+#: templates/default/bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr "Використовувати існуючу тему в поточному форумі:"
+
+#: templates/default/bbpress/form-reply-move.php:42
+msgid "Moved: %s"
+msgstr "Переміщено: %s"
+
+#: templates/default/bbpress/form-reply-move.php:41
+#: templates/default/bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr "Створити тему на форумі <strong>%s</strong> під назвою:"
+
+#: templates/default/bbpress/form-reply-move.php:37
+msgid "Move Method"
+msgstr "Спосіб переміщення"
+
+#: templates/default/bbpress/form-reply-move.php:33
+msgid "If you choose an existing topic, replies will be ordered by the time and date they were created."
+msgstr "Якщо ви виберете існуючу тему, відповіді будуть відсортовані за часом і датою їх створення."
+
+#: templates/default/bbpress/form-reply-move.php:29
+msgid "You can either make this reply a new topic with a new title, or merge it into an existing topic."
+msgstr "Ви можете створити з цієї відповіді нову тему, з новою назвою, або об'єднати її з вже існуючою темою."
+
+#: templates/default/bbpress/form-reply-move.php:24
+msgid "Move reply \"%s\""
+msgstr "Перемістити відповідь «%s»"
+
+#: templates/default/bbpress/form-protected.php:14
+msgid "Protected"
+msgstr "Захищено"
+
+#: templates/default/bbpress/form-forum.php:169
+msgid "You must be logged in to create new forums."
+msgstr "Ви повинні увійти на сайт, щоб створити нові форуми."
+
+#: templates/default/bbpress/form-forum.php:169
+msgid "You cannot create new forums."
+msgstr "Ви не можете створювати нові форуми."
+
+#: templates/default/bbpress/form-forum.php:161
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr "Форум «%s» закритий для нового вмісту."
+
+#: templates/default/bbpress/form-forum.php:138
+#: templates/default/bbpress/form-reply-move.php:72
+#: templates/default/bbpress/form-reply.php:135
+#: templates/default/bbpress/form-topic-merge.php:93
+#: templates/default/bbpress/form-topic-split.php:97
+#: templates/default/bbpress/form-topic.php:203
+msgid "Submit"
+msgstr "Готово"
+
+#: templates/default/bbpress/form-forum.php:123
+msgid "(No Parent)"
+msgstr "(Нема батька)"
+
+#: templates/default/bbpress/form-forum.php:91
+msgid "Forum Type:"
+msgstr "Тип форуму:"
+
+#: templates/default/bbpress/form-forum.php:82
+#: templates/default/bbpress/form-reply.php:64
+#: templates/default/bbpress/form-topic.php:90
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr "Ви можете використовувати ці <abbr title=\"HyperText Markup Language\">HTML</abbr> теги і атрибути:"
+
+#: templates/default/bbpress/form-forum.php:67
+msgid "Forum Name (Maximum Length: %d):"
+msgstr "Назва форуму (Максимальна довжина %d):"
+
+#: templates/default/bbpress/form-forum.php:55
+#: templates/default/bbpress/form-reply.php:44
+#: templates/default/bbpress/form-topic.php:61
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr "Вашому обліковому запису дозволено публікувати будь-який HTML-вміст."
+
+#: templates/default/bbpress/form-forum.php:47
+msgid "This forum is closed to new content, however your account still allows you to do so."
+msgstr "Цей форум закритий для нових тем, але ваші права дозволяють вам створити тему."
+
+#: templates/default/bbpress/form-forum.php:37
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr "Створити новий форум в «%s»"
+
+#: templates/default/bbpress/form-forum.php:35
+#: templates/default/bbpress/form-topic.php:41
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr "Редактирование «%s»"
+
+#: templates/default/bbpress/form-anonymous.php:27
+msgid "Mail (will not be published) (required):"
+msgstr "E-mail (не публікується) (обов'язково):"
+
+#: templates/default/bbpress/form-anonymous.php:22
+msgid "Name (required):"
+msgstr "Ім'я (обов'язково):"
+
+#: templates/default/bbpress/form-anonymous.php:17
+msgid "Your information:"
+msgstr "Ваша інформація:"
+
+#: templates/default/bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr "На жаль, обговорень немає!"
+
+#: templates/default/bbpress/feedback-no-search.php:13
+msgid "Oh bother! No search results were found here!"
+msgstr "На жаль, пошук не дав результатів!"
+
+#: templates/default/bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr "На жаль, відповіді тут не знайдені!"
+
+#: templates/default/bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr "На жаль, форумів тут немає!"
+
+#: templates/default/bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr "У вас немає прав для перегляду цього форуму."
+
+#: templates/default/bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr "Особистий"
+
+#: templates/default/bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr "Ви вже увійшли."
+
+#: templates/default/bbpress/content-statistics.php:64
+msgid "Hidden Replies"
+msgstr "Приховані відповіді"
+
+#: templates/default/bbpress/content-statistics.php:53
+msgid "Hidden Topics"
+msgstr "Приховані теми"
+
+#: templates/default/bbpress/content-statistics.php:44
+msgid "Empty Topic Tags"
+msgstr "Порожні мітки тем"
+
+#: templates/default/bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr "Користувачі"
+
+#: includes/users/template.php:1476
+msgid "Registration complete. Please check your e-mail."
+msgstr "Реєстрацію завершено. Будь ласка, перевірте ваш e-mail."
+
+#: includes/users/template.php:1471
+msgid "Check your e-mail for your new password."
+msgstr "На ваш e-mail висланий новий пароль."
+
+#: includes/users/template.php:1466
+msgid "Check your e-mail for the confirmation link."
+msgstr "На ваш e-mail вислано посилання для підтвердження."
+
+#: includes/users/template.php:1457
+msgid "New user registration is currently not allowed."
+msgstr "Реєстрація нового користувача в даний час не дозволена."
+
+#: includes/users/template.php:1453
+msgid "You are now logged out."
+msgstr "Ви вийшли з системи."
+
+#: includes/users/template.php:1255
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash;  Нема ролі на цьому сайті &mdash;"
+
+#: includes/users/template.php:1188
+msgid "This user has super admin privileges."
+msgstr "У користувача права супер адміністратора."
+
+#: includes/users/template.php:1188
+msgid "You have super admin privileges."
+msgstr "У вас права супер адміністратора."
+
+#: includes/users/template.php:1163
+msgid "User updated."
+msgstr "Користувач оновлений."
+
+#: includes/users/template.php:895
+msgid "Favorited"
+msgstr "Вибране"
+
+#: includes/users/template.php:557
+msgid "Admin"
+msgstr "Адміністратор"
+
+#: includes/users/template.php:517
+msgid "Member"
+msgstr "Участник"
+
+#: includes/users/template.php:507
+msgid "Inactive"
+msgstr "Неактивований"
+
+#: includes/users/template.php:503
+msgid "Guest"
+msgstr "Гість"
+
+#: includes/users/functions.php:1331
+msgid "<strong>ERROR</strong>: There was a problem subscribing to that topic!"
+msgstr "<strong>ПОМИЛКА</strong>: Неможливо підписатися на цю тему!"
+
+#: includes/users/functions.php:1329
+msgid "<strong>ERROR</strong>: There was a problem unsubscribing from that topic!"
+msgstr "<strong>ПОМИЛКА</strong>: Чи не вдалося відписатися від теми!"
+
+#: includes/users/functions.php:1276
+msgid "<strong>ERROR</strong>: No topic was found! Which topic are you subscribing/unsubscribing to?"
+msgstr "<strong>ПОМИЛКА</strong>: Тема не знайдена! На яку тему ви підписувалися/відписувавалися?"
+
+#: includes/users/functions.php:1225
+msgid "<strong>ERROR</strong>: There was a problem subscribing to that forum!"
+msgstr "<strong>ПОМИЛКА</strong>: Неможливо підписатися на форум!"
+
+#: includes/users/functions.php:1223
+msgid "<strong>ERROR</strong>: There was a problem unsubscribing from that forum!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося відписатися від форуму!"
+
+#: includes/users/functions.php:1170
+msgid "<strong>ERROR</strong>: No forum was found! Which forum are you subscribing/unsubscribing to?"
+msgstr "<strong>ПОМИЛКА</strong>: Форум не знайдений! На який форум ви намагаєтеся підписатися/відписатися?"
+
+#: includes/users/functions.php:508
+msgid "<strong>ERROR</strong>: There was a problem favoriting that topic!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося додати тему в обране!"
+
+#: includes/users/functions.php:506
+msgid "<strong>ERROR</strong>: There was a problem removing that topic from favorites!"
+msgstr "<strong>ПОМИЛКА</strong>: Неможливо видалити тему з обраного!"
+
+#: includes/users/functions.php:463 includes/users/functions.php:1178
+#: includes/users/functions.php:1284
+msgid "<strong>ERROR</strong>: You don't have the permission to edit favorites of that user!"
+msgstr "<strong>ПОМИЛКА</strong>: У Вас немає прав для редагування закладок цього користувача!"
+
+#: includes/users/functions.php:455
+msgid "<strong>ERROR</strong>: No topic was found! Which topic are you marking/unmarking as favorite?"
+msgstr "<strong>ПОМИЛКА</strong>: Тема не знайдена! Яку тему ви додавали/видаляли в обране?"
+
+#: includes/topics/template.php:3375
+msgid "View Topic Tag"
+msgstr "Дивитися мітки теми"
+
+#: includes/topics/template.php:3374
+msgid "New Tag Name"
+msgstr "Нове ім'я мітки"
+
+#: includes/topics/template.php:3373
+msgid "Add New Tag"
+msgstr "Додати нову позначку"
+
+#: includes/topics/template.php:3372
+msgid "Update Tag"
+msgstr "Оновити мітку"
+
+#: includes/topics/template.php:3371
+msgid "Edit Tag"
+msgstr "Змінити мітку"
+
+#: includes/topics/template.php:3370
+msgid "All Tags"
+msgstr "Всі мітки"
+
+#: includes/topics/template.php:3369
+msgid "Popular Tags"
+msgstr "Популярні мітки"
+
+#: includes/topics/template.php:3368
+msgid "Search Tags"
+msgstr "Шукати в мітках"
+
+#: includes/topics/template.php:3366
+#: templates/default/bbpress/content-statistics.php:37
+msgid "Topic Tags"
+msgstr "Мітки тем"
+
+#: includes/topics/template.php:3320
+msgid "This topic has no replies."
+msgstr "У цій теми немає відповідей."
+
+#: includes/topics/template.php:3316
+msgid "This topic contains %1$s and has %2$s."
+msgstr "У цій темі %1$s і %2$s."
+
+#: includes/topics/template.php:3312
+msgid "This topic contains %1$s, has %2$s, and was last updated by %3$s %4$s."
+msgstr "У цій темі %1$s, %2$s, останнє оновлення %3$s %4$s."
+
+#: includes/topics/template.php:3306
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%s участник"
+msgstr[1] "%s участника"
+msgstr[2] "%s участників"
+
+#: includes/topics/template.php:3046
+msgid "This topic is in the trash."
+msgstr "Ця тема переміщена в кошик."
+
+#: includes/topics/template.php:3041
+msgid "This topic is marked as spam."
+msgstr "Ця тема позначена як спам."
+
+#: includes/topics/template.php:2981
+msgid "Viewing topic %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s topics - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Перегляд %1$s теми - з %2$s по %3$s (%4$s всього)"
+msgstr[1] "Перегляд %1$s тем - з %2$s по %3$s (%4$s всього)"
+msgstr[2] "Перегляд %1$s тем - з %2$s по %3$s (%4$s всього)"
+
+#: includes/topics/template.php:2977
+msgid "Viewing %1$s topic"
+msgid_plural "Viewing %1$s topics"
+msgstr[0] "Перегляд %1$s теми"
+msgstr[1] "Перегляд %1$s тем"
+msgstr[2] "Перегляд %1$s тем"
+
+#: includes/topics/template.php:2816
+#: templates/default/bbpress/form-topic-tag.php:59
+#: templates/default/bbpress/form-topic-tag.php:73
+msgid "Merge"
+msgstr "Об'єднати"
+
+#: includes/topics/template.php:2686
+msgctxt "Topic Status"
+msgid "Open"
+msgstr "Відкрити"
+
+#: includes/topics/template.php:2685
+msgctxt "Topic Status"
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/topics/template.php:2295
+msgid "Tagged:"
+msgstr "Позначено:"
+
+#: includes/topics/template.php:1892
+msgid "Unfavorite"
+msgstr "Прибрати з обраного"
+
+#: includes/topics/template.php:1891 includes/users/template.php:894
+msgid "Favorite"
+msgstr "В обране"
+
+#: includes/topics/template.php:993
+msgid "This topic was modified %1$s by %2$s."
+msgstr "Тема змінена %1$s користувачем %2$s."
+
+#: includes/topics/template.php:991
+msgid "This topic was modified %1$s by %2$s. Reason: %3$s"
+msgstr "Тема змінена %1$s користувачем %2$s. Причина: %3$s"
+
+#: includes/topics/template.php:60
+msgid "No topics found in Trash"
+msgstr "В кошику теми не знайдені"
+
+#: includes/topics/template.php:59
+msgid "No topics found"
+msgstr "Теми не знайдені"
+
+#: includes/topics/template.php:58
+msgid "Search Topics"
+msgstr "Пошук по темам"
+
+#: includes/topics/template.php:56 includes/topics/template.php:57
+msgid "View Topic"
+msgstr "Дивитися тему"
+
+#: includes/topics/template.php:54
+msgid "Edit Topic"
+msgstr "Змінити тему"
+
+#: includes/topics/template.php:52 templates/default/bbpress/form-topic.php:43
+msgid "Create New Topic"
+msgstr "Створити нову тему"
+
+#: includes/topics/template.php:51 includes/topics/template.php:55
+msgid "New Topic"
+msgstr "Нова тема"
+
+#: includes/topics/functions.php:2158
+msgid "<strong>ERROR</strong>: There was a problem deleting the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Неможливо видалити тему."
+
+#: includes/topics/functions.php:2150
+msgid "<strong>ERROR</strong>: There was a problem untrashing the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося відновити тему з кошика."
+
+#: includes/topics/functions.php:2142
+msgid "<strong>ERROR</strong>: There was a problem trashing the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося перемістити тему в кошик."
+
+#: includes/topics/functions.php:2123
+msgid "<strong>ERROR</strong>: There was a problem marking the topic as spam."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося помітити тему як спам."
+
+#: includes/topics/functions.php:2123
+msgid "<strong>ERROR</strong>: There was a problem unmarking the topic as spam."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося помітити тему як не спам."
+
+#: includes/topics/functions.php:2113
+msgid "<strong>ERROR</strong>: There was a problem sticking the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося прикріпити тему."
+
+#: includes/topics/functions.php:2113
+msgid "<strong>ERROR</strong>: There was a problem unsticking the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося відкріпити тему."
+
+#: includes/topics/functions.php:2102
+msgid "<strong>ERROR</strong>: There was a problem opening the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося відкрити тему."
+
+#: includes/topics/functions.php:2102
+msgid "<strong>ERROR</strong>: There was a problem closing the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося закрити тему."
+
+#: includes/topics/functions.php:2089
+msgid "<strong>ERROR:</strong> You do not have the permission to do that."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для здійснення цієї операції."
+
+#: includes/topics/functions.php:1984
+msgctxt "Make topic super sticky"
+msgid "Super Sticky"
+msgstr "Завжди зверху"
+
+#: includes/topics/functions.php:1983
+msgctxt "Make topic sticky"
+msgid "Sticky"
+msgstr "Прикріплена"
+
+#: includes/topics/functions.php:1982
+msgctxt "Unstick a topic"
+msgid "Normal"
+msgstr "Звичайна"
+
+#: includes/topics/functions.php:1969
+msgctxt "Mark topic as pending"
+msgid "Pending"
+msgstr "На затверджені"
+
+#: includes/topics/functions.php:1968
+msgctxt "Trash the topic"
+msgid "Trash"
+msgstr "Вилучена"
+
+#: includes/topics/functions.php:1967
+msgctxt "Spam the topic"
+msgid "Spam"
+msgstr "Спам"
+
+#: includes/topics/functions.php:1966
+msgctxt "Close the topic"
+msgid "Closed"
+msgstr "Закрита"
+
+#: includes/topics/functions.php:1965
+msgctxt "Open the topic"
+msgid "Open"
+msgstr "Відкрита"
+
+#: includes/topics/functions.php:1931
+msgid "<strong>ERROR</strong>: The following problem(s) have been found while deleting the tag: %s"
+msgstr "<strong>ПОМИЛКА</strong>: Наступна проблема (проблеми) була виявлена при видаленні міток: %s"
+
+#: includes/topics/functions.php:1922
+msgid "<strong>ERROR</strong>: You do not have the permissions to delete the topic tags."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для видалення міток теми."
+
+#: includes/topics/functions.php:1890
+msgid "<strong>ERROR</strong>: The tags which are being merged can not be the same."
+msgstr "<strong>ПОМИЛКА</strong>: Мітки, які обираються для об'єднання, не можуть бути однаковими."
+
+#: includes/topics/functions.php:1881 includes/topics/functions.php:1899
+msgid "<strong>ERROR</strong>: The following problem(s) have been found while merging the tags: %s"
+msgstr "<strong>ПОМИЛКА</strong>: Наступна проблема (проблеми) була виявлена при об'єднанні міток: %s"
+
+#: includes/topics/functions.php:1842
+msgid "<strong>ERROR</strong>: The following problem(s) have been found while updating the tag: %s"
+msgstr "<strong>ПОМИЛКА</strong>: Наступна проблема (проблеми) була виявлена при оновленні міток: %s"
+
+#: includes/topics/functions.php:1832 includes/topics/functions.php:1871
+msgid "<strong>ERROR</strong>: You need to enter a tag name."
+msgstr "<strong>ПОМИЛКА</strong>: Ви повинні ввести ім'я мітки."
+
+#: includes/topics/functions.php:1826 includes/topics/functions.php:1865
+msgid "<strong>ERROR</strong>: You do not have the permissions to edit the topic tags."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для редагування міток теми."
+
+#: includes/topics/functions.php:1808
+msgid "<strong>ERROR</strong>: The following problem(s) have been found while getting the tag: %s"
+msgstr "<strong>ПОМИЛКА</strong>: Наступна проблема (проблеми) була виявлена при отриманні міток: %s"
+
+#: includes/topics/functions.php:1492
+msgid "<strong>ERROR</strong>: The topic you want to split to was not found!"
+msgstr "<strong>ПОМИЛКА</strong>: Тему, яку ви хочете розділити не знайдено!"
+
+#: includes/topics/functions.php:1470
+msgid "<strong>ERROR</strong>: You need to choose a valid split option."
+msgstr "<strong>ПОМИЛКА</strong>: Ви повинні вибрати правильний варіант поділу."
+
+#: includes/topics/functions.php:1452
+msgid "<strong>ERROR</strong>: The topic you want to split was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Тему, яку ви хочете розділити не знайдено."
+
+#: includes/topics/functions.php:1443
+msgid "<strong>ERROR</strong>: The reply you want to split from was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Відповідь, з якої ви хочете почати поділ не знайдена."
+
+#: includes/topics/functions.php:1435
+msgid "<strong>ERROR</strong>: Reply ID to split the topic from not found!"
+msgstr "<strong>ПОМИЛКА</strong>: ID відповіді для розділення не знайдений!"
+
+#: includes/topics/functions.php:1182
+msgid "<strong>ERROR</strong>: You do not have the permissions to edit the destination topic."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для редагування теми призначення."
+
+#: includes/topics/functions.php:1178
+msgid "<strong>ERROR</strong>: The topic you want to merge to was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Тему з якою ви хочете здійснити об'єднання не знайдено."
+
+#: includes/topics/functions.php:1172
+msgid "<strong>ERROR</strong>: Destination topic ID not found."
+msgstr "<strong>ПОМИЛКА</strong>: ID теми призначення не знайдено."
+
+#: includes/topics/functions.php:1158
+msgid "<strong>ERROR</strong>: The topic you want to merge was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Тему, яку ви хочете об'єднати не знайдено."
+
+#: includes/topics/functions.php:602
+msgid "<strong>ERROR</strong>: Your topic cannot be edited at this time."
+msgstr "<strong>ПОМИЛКА</strong>: В даний момент ви не можете редагувати тему."
+
+#: includes/topics/functions.php:550
+msgid "<strong>ERROR</strong>: This forum is a category. No topics can be created in it."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум - рубрика. Тут не можна створювати теми."
+
+#: includes/topics/functions.php:504
+msgid "<strong>ERROR</strong>: You do not have permission to edit that topic."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для редагування цієї теми."
+
+#: includes/topics/functions.php:493
+msgid "<strong>ERROR</strong>: The topic you want to edit was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Тему, яку ви хочете змінити не знайдено."
+
+#: includes/topics/functions.php:482 includes/topics/functions.php:1146
+msgid "<strong>ERROR</strong>: Topic ID not found."
+msgstr "<strong>ПОМИЛКА</strong>: ID теми не знайдений."
+
+#: includes/topics/functions.php:270
+msgid "<strong>ERROR</strong>: Your topic cannot be created at this time."
+msgstr "<strong>ПОМИЛКА</strong>: В даний момент ваша тема не може бути створена."
+
+#: includes/topics/functions.php:265
+msgid "<strong>ERROR</strong>: Duplicate topic detected; it looks as though you&#8217;ve already said that!"
+msgstr "<strong>ПОМИЛКА</strong>: Виявлено дублікат теми. Здається, ви вже сказали це!"
+
+#: includes/topics/functions.php:251 includes/topics/functions.php:569
+msgid "<strong>ERROR</strong>: This forum is hidden and you do not have the capability to read or create new topics in it."
+msgstr "<strong>ПОМИЛКА</strong>: Це прихований форум, ви не можете його читати і створювати в ньому нові теми."
+
+#: includes/topics/functions.php:245 includes/topics/functions.php:563
+msgid "<strong>ERROR</strong>: This forum is private and you do not have the capability to read or create new topics in it."
+msgstr "<strong>ПОМИЛКА</strong>: Це особистий форум, ви не можете його читати і створювати в ньому нові теми."
+
+#: includes/topics/functions.php:239 includes/topics/functions.php:557
+msgid "<strong>ERROR</strong>: This forum has been closed to new topics."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум закритий для нових тем."
+
+#: includes/topics/functions.php:232
+msgid "<strong>ERROR</strong>: This forum is a category. No topics can be created in this forum."
+msgstr "<strong>ПОМИЛКА</strong>: Це форум - рубрика. Не можна створювати тут теми."
+
+#: includes/topics/functions.php:187 includes/topics/functions.php:597
+msgid "<strong>ERROR</strong>: Your topic cannot be empty."
+msgstr "<strong>ПОМИЛКА</strong>: Ваша тема не може бути порожньою."
+
+#: includes/topics/functions.php:175 includes/topics/functions.php:585
+msgid "<strong>ERROR</strong>: Your topic needs a title."
+msgstr "<strong>ПОМИЛКА</strong>: У вашої теми немає заголовка."
+
+#: includes/topics/functions.php:150
+msgid "<strong>ERROR</strong>: You do not have permission to create new topics."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для створення нової теми."
+
+#: includes/search/template.php:405
+msgid "Viewing %2$s results (of %4$s total)"
+msgid_plural "Viewing %1$s results - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Перегляд %1$s результату — з %2$s по %3$s (з %4$s)"
+msgstr[1] "Перегляд %1$s результатів — з %2$s по %3$s (з %4$s)"
+msgstr[2] "Перегляд %1$s результатів — з %2$s по %3$s (з %4$s)"
+
+#: includes/search/template.php:401
+msgid "Viewing %1$s result"
+msgid_plural "Viewing %1$s results"
+msgstr[0] "Перегляд %1$s результату"
+msgstr[1] "Перегляд %1$s результатів"
+msgstr[2] "Перегляд %1$s результатів"
+
+#: includes/search/template.php:229
+msgid "Search Results for '%s'"
+msgstr "Результати пошуку для '%s'"
+
+#: includes/replies/template.php:2366
+msgid "Viewing %2$s post (of %4$s total)"
+msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Перегляд %1$s повідомлення - з %2$s по %3$s (з %4$s всього)"
+msgstr[1] "Перегляд %1$s повідомлень  - з %2$s по %3$s (з %4$s всього)"
+msgstr[2] "Перегляд %1$s повідомлень  - з %2$s по %3$s (з %4$s всього)"
+
+#: includes/replies/template.php:2362
+msgid "Viewing %1$s post"
+msgid_plural "Viewing %1$s posts"
+msgstr[0] "Перегляд %1$s повідомлення"
+msgstr[1] "Перегляд %1$s повідомлень"
+msgstr[2] "Перегляд %1$s повідомлень"
+
+#: includes/replies/template.php:2354
+msgid "Viewing %2$s replies (of %4$s total)"
+msgid_plural "Viewing %1$s replies - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Перегляд %1$s відповіді - з %2$s по %3$s (з %4$s всього)"
+msgstr[1] "Перегляд %1$s відповідей - з %2$s по %3$s (з %4$s всього)"
+msgstr[2] "Перегляд %1$s відповідей - з %2$s по %3$s (з %4$s всього)"
+
+#: includes/replies/template.php:2350
+msgid "Viewing %1$s reply"
+msgid_plural "Viewing %1$s replies"
+msgstr[0] "Перегляд %1$s відповіді"
+msgstr[1] "Перегляд %1$s відповідей"
+msgstr[2] "Перегляд %1$s відповідей"
+
+#: includes/replies/template.php:2343
+msgid "Viewing %1$s reply thread"
+msgid_plural "Viewing %1$s reply threads"
+msgstr[0] "Перегляд %1$s гілки відповідей"
+msgstr[1] "Перегляд %1$s гілок відповідей"
+msgstr[2] "Перегляд %1$s гілок відповідей"
+
+#: includes/replies/template.php:2237
+msgid "Split the topic from this reply"
+msgstr "Відокремити тему і цю відповідь"
+
+#: includes/replies/template.php:2236
+msgid "Split"
+msgstr "Відокремити"
+
+#: includes/replies/template.php:2170
+msgid "Move this reply"
+msgstr "Перемістити цю відповідь"
+
+#: includes/replies/template.php:2169
+msgid "Move"
+msgstr "Перемістити"
+
+#: includes/replies/template.php:2106 includes/topics/template.php:2873
+msgid "Unspam"
+msgstr "Не спам"
+
+#: includes/replies/template.php:2053 includes/topics/template.php:2634
+msgid "Are you sure you want to delete that permanently?"
+msgstr "Ви дійсно хочете видалити це назавжди?"
+
+#: includes/replies/template.php:2036 includes/topics/template.php:2617
+#: templates/default/bbpress/form-topic-tag.php:88
+#: templates/default/bbpress/form-topic-tag.php:101
+msgid "Delete"
+msgstr "Видалити"
+
+#: includes/replies/template.php:1695
+msgid "Cancel"
+msgstr "Відміна"
+
+#: includes/replies/template.php:1210 includes/topics/template.php:1481
+#: includes/users/template.php:1651
+msgid "Visit %s's website"
+msgstr "Перейти на сайт користувача %s"
+
+#: includes/replies/template.php:1210 includes/topics/template.php:1481
+#: includes/users/template.php:1651
+msgid "View %s's profile"
+msgstr "Переглянути профіль користувача %s"
+
+#: includes/replies/template.php:1098 includes/topics/template.php:1368
+#: includes/users/template.php:184
+msgid "Anonymous"
+msgstr "Анонім"
+
+#: includes/replies/template.php:806
+msgid "This reply was modified %1$s by %2$s."
+msgstr "Відповідь змінена %1$s користувачем %2$s."
+
+#: includes/replies/template.php:804
+msgid "This reply was modified %1$s by %2$s. Reason: %3$s"
+msgstr "Відповідь змінена %1$s користувачем %2$s. Причина: %3$s"
+
+#: includes/replies/template.php:706 includes/topics/template.php:809
+msgctxt "date at time"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: includes/replies/template.php:60
+msgid "No replies found in Trash"
+msgstr "Відповідей в кошику, не знайдено"
+
+#: includes/replies/template.php:59
+msgid "No replies found"
+msgstr "Відповідей не знайдено"
+
+#: includes/replies/template.php:58
+msgid "Search Replies"
+msgstr "Пошук відповідей"
+
+#: includes/replies/template.php:56 includes/replies/template.php:57
+msgid "View Reply"
+msgstr "Переглянути відповідь"
+
+#: includes/replies/template.php:54
+msgid "Edit Reply"
+msgstr "Змінити відповідь"
+
+#: includes/replies/template.php:52
+msgid "Create New Reply"
+msgstr "Додати відповідь"
+
+#: includes/replies/template.php:51 includes/replies/template.php:55
+msgid "New Reply"
+msgstr "Нова відповідь"
+
+#: includes/replies/functions.php:2034 includes/topics/functions.php:3464
+msgid "Replies: %s"
+msgstr "Відповіді: %s"
+
+#: includes/replies/functions.php:1992
+msgid "All Posts"
+msgstr "Всі повідомлення"
+
+#: includes/replies/functions.php:1578
+msgid "<strong>ERROR</strong>: There was a problem deleting the reply!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося видалити відповідь!"
+
+#: includes/replies/functions.php:1570
+msgid "<strong>ERROR</strong>: There was a problem untrashing the reply!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося відновити відповідь з кошика!"
+
+#: includes/replies/functions.php:1562
+msgid "<strong>ERROR</strong>: There was a problem trashing the reply!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося перемістити відповідь в кошик!"
+
+#: includes/replies/functions.php:1543
+msgid "<strong>ERROR</strong>: There was a problem marking the reply as spam!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося помітити відповідь як спам!"
+
+#: includes/replies/functions.php:1543
+msgid "<strong>ERROR</strong>: There was a problem unmarking the reply as spam!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося помітити відповідь як не спам!"
+
+#: includes/replies/functions.php:1530
+msgid "<strong>ERROR:</strong> You do not have the permission to do that!"
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для здійснення даної операції!"
+
+#: includes/replies/functions.php:1349 includes/topics/functions.php:1538
+msgid "<strong>ERROR</strong>: You do not have the permissions to create new topics. The reply could not be converted into a topic."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для створення нових тем. Відповідь не буде перетворена в тему."
+
+#: includes/replies/functions.php:1344 includes/topics/functions.php:1533
+msgid "<strong>ERROR</strong>: There was a problem converting the reply into the topic. Please try again."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося перетворити відповідь в тему. Будь ласка, спробуйте пізніше."
+
+#: includes/replies/functions.php:1299 includes/replies/template.php:571
+#: includes/topics/functions.php:1294 includes/topics/functions.php:1652
+#: templates/default/bbpress/form-reply.php:29
+msgid "Reply To: %s"
+msgstr "Відповідь в темі: %s"
+
+#: includes/replies/functions.php:1290 includes/topics/functions.php:1496
+msgid "<strong>ERROR</strong>: You do not have the permissions to edit the destination topic!"
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав на редагування теми призначення!"
+
+#: includes/replies/functions.php:1285
+msgid "<strong>ERROR</strong>: The topic you want to move to was not found!"
+msgstr "<strong>ПОМИЛКА</strong>: Тему, яку ви хочете перемістити не знайдено!"
+
+#: includes/replies/functions.php:1275 includes/topics/functions.php:1483
+msgid "<strong>ERROR</strong>: Destination topic ID not found!"
+msgstr "<strong>ПОМИЛКА</strong>: ID теми призначення не знайдений!"
+
+#: includes/replies/functions.php:1262
+msgid "<strong>ERROR</strong>: You need to choose a valid move option."
+msgstr "<strong>ПОМИЛКА</strong>: Ви повинні вибрати коректні параметри переміщення."
+
+#: includes/replies/functions.php:1252 includes/topics/functions.php:1164
+#: includes/topics/functions.php:1462
+msgid "<strong>ERROR</strong>: You do not have the permissions to edit the source topic."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для редагування вихідної теми."
+
+#: includes/replies/functions.php:1241
+msgid "<strong>ERROR</strong>: The topic you want to move from was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Тему, яку ви хочете перемістити не знайдено."
+
+#: includes/replies/functions.php:1232
+msgid "<strong>ERROR</strong>: The reply you want to move was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Відповідь, яку ви хочете перемістити не знайдено."
+
+#: includes/replies/functions.php:1223
+msgid "<strong>ERROR</strong>: Reply ID to move not found!"
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося знайти ID відповіді для переміщення!"
+
+#: includes/replies/functions.php:616
+msgid "<strong>ERROR</strong>: Your reply cannot be edited at this time."
+msgstr "<strong>ПОМИЛКА</strong>: В даний момент ви не можете редагувати відповідь."
+
+#: includes/replies/functions.php:533
+msgid "<strong>ERROR</strong>: You do not have permission to edit that reply."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для редагування цієї відповіді."
+
+#: includes/replies/functions.php:522
+msgid "<strong>ERROR</strong>: The reply you want to edit was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Відповідь, яку ви хочете змінити не знайдена."
+
+#: includes/replies/functions.php:505
+msgid "<strong>ERROR</strong>: Reply ID not found."
+msgstr "<strong>ПОМИЛКА</strong>: ID відповіді не знайдено."
+
+#: includes/replies/functions.php:377 includes/replies/functions.php:702
+msgid "<strong>ERROR</strong>: There was a problem adding the tags to the topic."
+msgstr "<strong>ПОМИЛКА</strong>: Не вдалося додати мітки до теми."
+
+#: includes/replies/functions.php:318
+msgid "<strong>ERROR</strong>: Topic is closed."
+msgstr "<strong>ПОМИЛКА</strong>: Тема закрита."
+
+#: includes/replies/functions.php:294
+msgid "<strong>ERROR</strong>: Your reply cannot be created at this time."
+msgstr "<strong>ПОМИЛКА</strong>: Ваша відповідь зараз не може бути створена."
+
+#: includes/replies/functions.php:289
+msgid "<strong>ERROR</strong>: Duplicate reply detected; it looks as though you&#8217;ve already said that!"
+msgstr "<strong>ПОМИЛКА</strong>: Виявлено дублікат відповіді. Здається, ви вже сказали це!"
+
+#: includes/replies/functions.php:279 includes/replies/functions.php:611
+msgid "<strong>ERROR</strong>: Your reply cannot be empty."
+msgstr "<strong>ПОМИЛКА</strong>: Відповідь не може бути порожньою."
+
+#: includes/replies/functions.php:246 includes/replies/functions.php:587
+msgid "<strong>ERROR</strong>: This forum is hidden and you do not have the capability to read or create new replies in it."
+msgstr "<strong>ПОМИЛКА</strong>: Це прихований форум, ви не можете його читати і створювати нові відповіді."
+
+#: includes/replies/functions.php:240 includes/replies/functions.php:581
+msgid "<strong>ERROR</strong>: This forum is private and you do not have the capability to read or create new replies in it."
+msgstr "<strong>ПОМИЛКА</strong>: Це особистий форум, ви не можете його читати і створювати в ньому нові відповіді."
+
+#: includes/replies/functions.php:234 includes/replies/functions.php:575
+msgid "<strong>ERROR</strong>: This forum has been closed to new replies."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум закритий для нових відповідей."
+
+#: includes/replies/functions.php:227 includes/replies/functions.php:568
+msgid "<strong>ERROR</strong>: This forum is a category. No replies can be created in this forum."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум є категорією. Не можна створювати відповіді в цьому форумі."
+
+#: includes/replies/functions.php:213 includes/topics/functions.php:218
+msgid "<strong>ERROR</strong>: Forum does not exist."
+msgstr "<strong>ПОМИЛКА</strong>: Форум не існує"
+
+#: includes/replies/functions.php:209 includes/topics/functions.php:214
+msgid "<strong>ERROR</strong>: Forum ID cannot be a negative number."
+msgstr "<strong>ПОМИЛКА</strong>: ID форуму не може бути негативним числом"
+
+#: includes/replies/functions.php:195 includes/topics/functions.php:200
+msgid "<strong>ERROR</strong>: Forum ID must be a number."
+msgstr "<strong>ПОМИЛКА</strong>: ID форуму повинен бути числовим."
+
+#: includes/replies/functions.php:191 includes/replies/functions.php:205
+#: includes/topics/functions.php:196 includes/topics/functions.php:210
+#: includes/topics/functions.php:535
+msgid "<strong>ERROR</strong>: Forum ID is missing."
+msgstr "<strong>ПОМИЛКА</strong>: ID форуму відсутній."
+
+#: includes/replies/functions.php:172
+msgid "<strong>ERROR</strong>: Topic does not exist."
+msgstr "<strong>ПОМИЛКА</strong>: Тема не існує."
+
+#: includes/replies/functions.php:168
+msgid "<strong>ERROR</strong>: Topic ID cannot be a negative number."
+msgstr "<strong>ПОМИЛКА</strong>: ID теми не може бути негативним."
+
+#: includes/replies/functions.php:158
+msgid "<strong>ERROR</strong>: Topic ID must be a number."
+msgstr "<strong>ПОМИЛКА</strong>: ID теми повинен бути числовим."
+
+#: includes/replies/functions.php:154
+msgid "<strong>ERROR</strong>: Topic ID is missing."
+msgstr "<strong>ПОМИЛКА</strong>: ID теми відсутній."
+
+#: includes/replies/functions.php:142
+msgid "<strong>ERROR</strong>: You do not have permission to reply."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає прав для відповіді."
+
+#: includes/forums/template.php:2021
+msgid "This forum is empty."
+msgstr "Цей форум порожній."
+
+#: includes/forums/template.php:2017
+msgid "This forum contains %1$s."
+msgstr "В цьому форумі %1$s."
+
+#: includes/forums/template.php:2015
+msgid "This category contains %1$s."
+msgstr "У цій категорії %1$s."
+
+#: includes/forums/template.php:2007
+msgid "This forum contains %1$s and %2$s."
+msgstr "В цьому форумі %1$s і %2$s."
+
+#: includes/forums/template.php:2005
+msgid "This category contains %1$s and %2$s."
+msgstr "У цій рубриці %1$s і %2$s."
+
+#: includes/forums/template.php:1995
+msgid "This forum contains %1$s, and was last updated by %2$s %3$s."
+msgstr "В цьому форумі %1$s, останнє оновлення %2$s %3$s."
+
+#: includes/forums/template.php:1993
+msgid "This category contains %1$s, and was last updated by %2$s %3$s."
+msgstr "У цій категорії %1$s, останнє оновлення %2$s %3$s."
+
+#: includes/forums/template.php:1987
+msgid "This forum contains %1$s and %2$s, and was last updated by %3$s %4$s."
+msgstr "В цьому форумі %1$s и %2$s, останнє оновлення %3$s %4$s."
+
+#: includes/forums/template.php:1985
+msgid "This category contains %1$s and %2$s, and was last updated by %3$s %4$s."
+msgstr "У цій категорії %1$s и %2$s, останнє оновлення %3$s %4$s."
+
+#: includes/forums/template.php:1965 includes/topics/template.php:2102
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] "%s відповідь"
+msgstr[1] "%s відповіді"
+msgstr[2] "%s відповідей"
+
+#: includes/forums/template.php:1254 includes/topics/template.php:2118
+msgid " (+ %d hidden)"
+msgstr " (+ приховані: %d)"
+
+#: includes/forums/template.php:1238 includes/forums/template.php:1976
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] "%s тема"
+msgstr[1] "%s теми"
+msgstr[2] "%s тем"
+
+#: includes/forums/template.php:841 includes/topics/template.php:1847
+#: includes/users/template.php:1059
+msgid "Unsubscribe"
+msgstr "Відписатися"
+
+#: includes/forums/template.php:840 includes/topics/template.php:1846
+#: includes/users/template.php:1058
+msgid "Subscribe"
+msgstr "Підписатися"
+
+#: includes/forums/template.php:61 templates/default/bbpress/form-forum.php:118
+msgid "Parent Forum:"
+msgstr "Батьківський форум:"
+
+#: includes/forums/template.php:60
+msgid "No forums found in Trash"
+msgstr "В кошику форумів, не знайдено"
+
+#: includes/forums/template.php:59
+msgid "No forums found"
+msgstr "Форуми не знайдені"
+
+#: includes/forums/template.php:56 includes/forums/template.php:57
+msgid "View Forum"
+msgstr "Дивитися Форум"
+
+#: includes/forums/template.php:54
+msgid "Edit Forum"
+msgstr "Змінити форум"
+
+#: includes/forums/template.php:52 templates/default/bbpress/form-forum.php:37
+msgid "Create New Forum"
+msgstr "Створення нового форуму"
+
+#: includes/forums/template.php:51 includes/forums/template.php:55
+msgid "New Forum"
+msgstr "Новий форум"
+
+#: includes/forums/functions.php:1632
+msgctxt "Make forum hidden"
+msgid "Hidden"
+msgstr "Зробити прихованим"
+
+#: includes/forums/functions.php:1631
+msgctxt "Make forum private"
+msgid "Private"
+msgstr "Зробити приватним"
+
+#: includes/forums/functions.php:1630
+msgctxt "Make forum public"
+msgid "Public"
+msgstr "Зробити загальним"
+
+#: includes/forums/functions.php:1617
+msgctxt "Forum is a category"
+msgid "Category"
+msgstr "Категорія"
+
+#: includes/forums/functions.php:1616
+msgctxt "Forum accepts new topics"
+msgid "Forum"
+msgstr "Форум"
+
+#: includes/forums/functions.php:1603
+msgctxt "Close the forum"
+msgid "Closed"
+msgstr "Закритий"
+
+#: includes/forums/functions.php:1602
+msgctxt "Open the forum"
+msgid "Open"
+msgstr "Відкритий"
+
+#: includes/forums/functions.php:472
+msgid "<strong>ERROR</strong>: Your forum cannot be edited at this time."
+msgstr "<strong>ПОМИЛКА</strong>: В даний час не можна редагувати ваш форум."
+
+#: includes/forums/functions.php:405
+msgid "<strong>ERROR</strong>: You do not have permission to edit that forum."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає дозволу для зміни цього форуму."
+
+#: includes/forums/functions.php:400
+msgid "<strong>ERROR</strong>: The forum you want to edit was not found."
+msgstr "<strong>ПОМИЛКА</strong>: Форум, який ви хочете змінити не знайдений."
+
+#: includes/forums/functions.php:384
+msgid "<strong>ERROR</strong>: Forum ID not found."
+msgstr "<strong>ПОМИЛКА</strong>: ID форуму не знайдено."
+
+#: includes/forums/functions.php:220
+msgid "<strong>ERROR</strong>: Your forum cannot be created at this time."
+msgstr "<strong>ПОМИЛКА</strong>: В даний час не може створитися ваш форум."
+
+#: includes/forums/functions.php:215
+msgid "<strong>ERROR</strong>: This forum already exists."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум вже існує."
+
+#: includes/forums/functions.php:210 includes/replies/functions.php:284
+#: includes/topics/functions.php:260
+msgid "<strong>ERROR</strong>: Slow down; you move too fast."
+msgstr "<strong>ПОМИЛКА</strong>: Повільніше; ви рухаєтеся занадто швидко."
+
+#: includes/forums/functions.php:203 includes/forums/functions.php:441
+msgid "<strong>ERROR</strong>: This forum is hidden and you do not have the capability to read or create new forums in it."
+msgstr "<strong>ПОМИЛКА</strong>: Це прихований форум, ви не можете його читати або створювати в ньому нові форуми."
+
+#: includes/forums/functions.php:198 includes/forums/functions.php:436
+msgid "<strong>ERROR</strong>: This forum is private and you do not have the capability to read or create new forums in it."
+msgstr "<strong>ПОМИЛКА</strong>: Це приватний форум, ви не можете його читати або створювати в ньому нові форуми."
+
+#: includes/forums/functions.php:193 includes/forums/functions.php:431
+msgid "<strong>ERROR</strong>: This forum has been closed to new forums."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум був закритий для нових форумів."
+
+#: includes/forums/functions.php:188
+msgid "<strong>ERROR</strong>: This forum is a category. No forums can be created in this forum."
+msgstr "<strong>ПОМИЛКА</strong>: Цей форум є категорію. Форуми не можуть бути створені в цьому форумі."
+
+#: includes/forums/functions.php:181
+msgid "<strong>ERROR</strong>: Your forum must have a parent."
+msgstr "<strong>ПОМИЛКА</strong>: Ваш форум повинен мати батьківський."
+
+#: includes/forums/functions.php:167 includes/forums/functions.php:467
+msgid "<strong>ERROR</strong>: Your forum description cannot be empty."
+msgstr "<strong>ПОМИЛКА</strong>: Опис вашого форуму не може бути порожнім."
+
+#: includes/forums/functions.php:155 includes/forums/functions.php:455
+msgid "<strong>ERROR</strong>: Your forum needs a title."
+msgstr "<strong>ПОМИЛКА</strong>: Ваш форум необхідна назва."
+
+#: includes/forums/functions.php:131
+msgid "<strong>ERROR</strong>: You do not have permission to create new forums."
+msgstr "<strong>ПОМИЛКА</strong>: У вас немає дозволу на створення нових форумів."
+
+#: includes/extend/buddypress/notifications.php:165
+msgid "<strong>ERROR</strong>: You do not have permission to mark notifications for that user."
+msgstr "<strong>ПОМИЛКА</strong>: У Вас немає прав щоб відзначити повідомлення для цього користувача."
+
+#: includes/extend/buddypress/notifications.php:57
+msgid "You have %d new reply to %s"
+msgstr "У вас %d нових відповідей на %s"
+
+#: includes/extend/buddypress/notifications.php:55
+msgid "You have %d new reply to %2$s from %3$s"
+msgstr "У вас є %d нова відповідь на %2$s від %3$s"
+
+#: includes/extend/buddypress/notifications.php:51
+msgid "You have %d new replies"
+msgstr "У вас %d нових відповідей"
+
+#: includes/extend/buddypress/notifications.php:48
+msgid "Topic Replies"
+msgstr "Відповіді в темі"
+
+#: includes/extend/buddypress/loader.php:293
+#: templates/default/bbpress/user-subscriptions.php:34
+msgid "Subscribed Topics"
+msgstr "Підписки на теми"
+
+#: includes/extend/buddypress/loader.php:105
+msgid "Search Forums..."
+msgstr "Пошук на форумі..."
+
+#: includes/extend/buddypress/groups.php:775
+msgid "This group does not currently have a forum."
+msgstr "В даний час в цій групі немає форуму."
+
+#: includes/extend/buddypress/groups.php:478
+msgid "Group Forum"
+msgstr "Форум групи"
+
+#: includes/extend/buddypress/groups.php:437
+msgctxt "group admin edit screen"
+msgid "Discussion Forum"
+msgstr "Форум"
+
+#: includes/extend/buddypress/groups.php:339
+#: includes/extend/buddypress/groups.php:498
+#: includes/extend/buddypress/notifications.php:161
+#: includes/forums/functions.php:118 includes/forums/functions.php:395
+#: includes/replies/functions.php:116 includes/replies/functions.php:516
+#: includes/replies/functions.php:1246 includes/topics/functions.php:122
+#: includes/topics/functions.php:520 includes/topics/functions.php:1153
+#: includes/topics/functions.php:1456 includes/topics/functions.php:1820
+#: includes/topics/functions.php:1859 includes/topics/functions.php:1916
+#: includes/users/functions.php:459 includes/users/functions.php:1174
+#: includes/users/functions.php:1280 includes/users/functions.php:1407
+#: includes/users/functions.php:1413
+msgid "<strong>ERROR</strong>: Are you sure you wanted to do that?"
+msgstr "<strong>ПОМИЛКА</strong>: Ви впевнені, що хочете зробити це?"
+
+#: includes/extend/buddypress/groups.php:304
+msgid "Save Settings"
+msgstr "Зберегти налаштування"
+
+#: includes/extend/buddypress/groups.php:299
+msgid "Network administrators can reconfigure which forum belongs to this group."
+msgstr "Мережеві адміністратори можуть переналаштувати який форум належить до цієї групи."
+
+#: includes/extend/buddypress/groups.php:291
+msgid "Group Forum:"
+msgstr "Форум групи:"
+
+#: includes/extend/buddypress/groups.php:286
+msgid "Saying no will not delete existing forum content."
+msgstr "Зняття позначки не призведе до видалення існуючого контенту форуму."
+
+#: includes/extend/buddypress/groups.php:283
+#: includes/extend/buddypress/groups.php:483
+msgid "Yes. I want this group to have a forum."
+msgstr "Так. Я хочу включити форум в цій групі."
+
+#: includes/extend/buddypress/groups.php:279
+#: includes/extend/buddypress/groups.php:480
+msgid "Create a discussion forum to allow members of this group to communicate in a structured, bulletin-board style fashion."
+msgstr "Створіть дискусійний форум, щоб дозволити членам цієї групи спілкуватися в структурованій формі, у вигляді дошки оголошень."
+
+#: includes/extend/buddypress/groups.php:275
+#: includes/extend/buddypress/groups.php:278
+msgid "Group Forum Settings"
+msgstr "Налаштування форуму групи"
+
+#: includes/extend/buddypress/activity.php:565
+msgid "%1$s replied to the topic %2$s in the forum %3$s"
+msgstr "%1$s відповів(ла) на тему %2$s в форумі %3$s"
+
+#: includes/extend/buddypress/activity.php:420
+msgid "%1$s started the topic %2$s in the forum %3$s"
+msgstr "%1$s створена тема %2$s в форумі %3$s"
+
+#: includes/extend/buddypress/activity.php:196
+msgid "New forum reply"
+msgstr "Нова відповідь форуму"
+
+#: includes/extend/buddypress/activity.php:195
+msgid "New forum topic"
+msgstr "Нова тема форуму"
+
+#: includes/extend/akismet.php:793
+msgid "No recorded history. Akismet has not checked this post."
+msgstr "Немає записаної історії. Akismet не перевірив цю запис."
+
+#: includes/extend/akismet.php:735 includes/extend/akismet.php:745
+msgid "Akismet History"
+msgstr "Історія Akismet"
+
+#: includes/extend/akismet.php:489
+msgid "Akismet was unable to check this post (response: %s), will automatically retry again later."
+msgstr "Akismet не зміг перевірити це повідомлення (відповідь: %s), пізніше буде зроблена повторна спроба."
+
+#: includes/extend/akismet.php:475
+msgid "Akismet cleared this post as not spam"
+msgstr "Akismet вважає, що дане повідомлення - не спам"
+
+#: includes/extend/akismet.php:467 includes/extend/akismet.php:482
+msgid "Post status was changed to %s"
+msgstr "Статус сообщения изменён на %s"
+
+#: includes/extend/akismet.php:463
+msgid "Akismet caught this post as spam"
+msgstr "Akismet позначив це повідомлення як спам"
+
+#: includes/extend/akismet.php:405
+msgid "No response"
+msgstr "Нема відповіді"
+
+#: includes/extend/akismet.php:316
+msgid "%1$s reported this %2$s as not spam"
+msgstr "%1$s позначив цей %2$s як не спам"
+
+#: includes/extend/akismet.php:309
+msgid "%1$s reported this %2$s as spam"
+msgstr "%1$s позначив цей  %2$s як спам"
+
+#: includes/core/update.php:191
+msgid "Oh, and this is what a reply looks like."
+msgstr "А ось так виглядає відповідь."
+
+#: includes/core/update.php:190
+msgid "Re: Hello World!"
+msgstr "Re: Привіт, світ!"
+
+#: includes/core/update.php:189
+msgid "I am the first topic in your new forums."
+msgstr "Це перша тема на вашому новому форумі."
+
+#: includes/core/update.php:188
+msgid "Hello World!"
+msgstr "Привіт, світ!"
+
+#: includes/core/update.php:187
+msgid "General chit-chat"
+msgstr "Загальна балачка"
+
+#: includes/core/update.php:186
+msgid "General"
+msgstr "Основний"
+
+#: includes/core/capabilities.php:531
+msgid "Editable forum roles no longer exist."
+msgstr "Редаговані ролі форуму більше не існують."
+
+#: includes/common/widgets.php:1252
+msgid "Recent Replies"
+msgstr "Останні відповіді"
+
+#: includes/common/widgets.php:1237
+msgid "Show reply author:"
+msgstr "Показати автора відповіді:"
+
+#: includes/common/widgets.php:1235
+msgid "Maximum replies to show:"
+msgstr "Максимум відповідей для відображення:"
+
+#. translators: 1: reply link
+#: includes/common/widgets.php:1184
+msgctxt "widgets"
+msgid "%1$s"
+msgstr "%1$s"
+
+#. translators: 1: reply author, 2: reply link
+#: includes/common/widgets.php:1178
+msgctxt "widgets"
+msgid "%1$s on %2$s"
+msgstr "%1$s в %2$s"
+
+#. translators: 1: reply link, 2: reply timestamp
+#: includes/common/widgets.php:1172
+msgctxt "widgets"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: 1: reply author, 2: reply link, 3: reply timestamp
+#: includes/common/widgets.php:1166
+msgctxt "widgets"
+msgid "%1$s on %2$s %3$s"
+msgstr "%1$s в %2$s %3$s"
+
+#: includes/common/widgets.php:1081
+msgid "(bbPress) Recent Replies"
+msgstr "(bbPress) Останні відповіді"
+
+#: includes/common/widgets.php:1078
+msgid "A list of the most recent replies."
+msgstr "Список найостанніших відповідей."
+
+#: includes/common/widgets.php:1048
+msgid "Forum Statistics"
+msgstr "Статистика форуму"
+
+#: includes/common/widgets.php:951
+msgid "(bbPress) Statistics"
+msgstr "(bbPress) Статистика"
+
+#: includes/common/widgets.php:948
+msgid "Some statistics from your forum."
+msgstr "Деяка статистика для вашого форуму."
+
+#: includes/common/widgets.php:914
+msgid "Recent Topics"
+msgstr "Останні теми"
+
+#: includes/common/widgets.php:897
+msgid "Topics With Recent Replies"
+msgstr "Теми зі свіжими відповідями"
+
+#: includes/common/widgets.php:896
+#: templates/default/extras/page-forum-statistics.php:34
+msgid "Popular Topics"
+msgstr "Популярні теми"
+
+#: includes/common/widgets.php:895
+msgid "Newest Topics"
+msgstr "Нові теми"
+
+#: includes/common/widgets.php:893
+msgid "Order By:"
+msgstr "Сортувати за:"
+
+#: includes/common/widgets.php:890
+msgid "Show topic author:"
+msgstr "Показати автора теми:"
+
+#: includes/common/widgets.php:889 includes/common/widgets.php:1236
+msgid "Show post date:"
+msgstr "Показати дату відповіді:"
+
+#: includes/common/widgets.php:877
+msgid "Maximum topics to show:"
+msgstr "Максимум тем для показу"
+
+#: includes/common/widgets.php:815
+msgctxt "widgets"
+msgid "by %1$s"
+msgstr "опубліковано %1$s"
+
+#: includes/common/widgets.php:695
+msgid "(bbPress) Recent Topics"
+msgstr "(bbPress) Останні теми"
+
+#: includes/common/widgets.php:692
+msgid "A list of recent topics, sorted by popularity or freshness."
+msgstr "Список останніх тем, відсортованих за популярністю або по свіжості."
+
+#: includes/common/widgets.php:646 includes/common/widgets.php:886
+msgid "\"0\" to show only root - \"any\" to show all"
+msgstr "\"0\" для показу тільки кореня - \"any\" для показу усіх"
+
+#: includes/common/widgets.php:640 includes/common/widgets.php:880
+msgid "Parent Forum ID:"
+msgstr "ID Батьківського Форуму:"
+
+#: includes/common/widgets.php:515
+msgid "(bbPress) Forums List"
+msgstr "(bbPress) Список форумів"
+
+#: includes/common/widgets.php:512
+msgid "A list of forums with an option to set the parent."
+msgstr "Список форумів з можливістю вказати батьківський форум."
+
+#: includes/common/widgets.php:483 includes/forums/template.php:58
+msgid "Search Forums"
+msgstr "Шукати в форумах"
+
+#: includes/common/widgets.php:387
+msgid "(bbPress) Forum Search Form"
+msgstr "(bbPress) Форма пошуку по форуму"
+
+#: includes/common/widgets.php:384
+msgid "The bbPress forum search form."
+msgstr "Форма пошуку по форуму bbPress."
+
+#: includes/common/widgets.php:246
+msgid "(bbPress) Topic Views List"
+msgstr "(bbPress) Список переглядів теми"
+
+#: includes/common/widgets.php:243
+msgid "A list of registered optional topic views."
+msgstr "Налаштовуваний список переглядів тем."
+
+#: includes/common/widgets.php:195
+msgid "Lost Password URI:"
+msgstr "URI Нагадування пароля:"
+
+#: includes/common/widgets.php:190
+msgid "Register URI:"
+msgstr "URI Реєстрації:"
+
+#: includes/common/widgets.php:185 includes/common/widgets.php:337
+#: includes/common/widgets.php:465 includes/common/widgets.php:634
+#: includes/common/widgets.php:876 includes/common/widgets.php:1030
+#: includes/common/widgets.php:1234
+msgid "Title:"
+msgstr "Назва:"
+
+#: includes/common/widgets.php:128
+#: templates/default/bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr "Забули пароль?"
+
+#: includes/common/widgets.php:122
+#: templates/default/bbpress/form-user-register.php:36
+msgid "Register"
+msgstr "Зареєструватися"
+
+#: includes/common/widgets.php:103
+msgid "Remember Me"
+msgstr "Запам'ятати мене"
+
+#: includes/common/widgets.php:97
+#: templates/default/bbpress/form-user-login.php:22
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/common/widgets.php:92
+#: templates/default/bbpress/form-user-edit.php:98
+#: templates/default/bbpress/form-user-login.php:17
+#: templates/default/bbpress/form-user-register.php:23
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: includes/common/widgets.php:89 includes/common/widgets.php:110
+#: templates/default/bbpress/form-user-login.php:14
+#: templates/default/bbpress/form-user-login.php:35
+msgid "Log In"
+msgstr "Увійти"
+
+#: includes/common/widgets.php:42
+msgid "(bbPress) Login Widget"
+msgstr "(bbPress) Віджет авторизації"
+
+#: includes/common/widgets.php:39
+msgid "A simple login form with optional links to sign-up and lost password pages."
+msgstr "Проста форма входу з додатковим посиланням, щоб зареєструватися і відновити забутий пароль."
+
+#: includes/common/template.php:2646
+msgid "View: %s"
+msgstr "%s"
+
+#: includes/common/template.php:2638
+#: templates/default/bbpress/user-details.php:65
+msgid "Edit %s's Profile"
+msgstr "Змінити профіль користувача %s"
+
+#: includes/common/template.php:2633
+msgid "Edit Your Profile"
+msgstr "Змінити ваш профіль"
+
+#: includes/common/template.php:2625
+msgid "%s Profile"
+msgstr "%s Профіль"
+
+#: includes/common/template.php:2621
+msgid "%s Subscriptions"
+msgstr "%s Підписки"
+
+#: includes/common/template.php:2617
+msgid "%s Favorites"
+msgstr "%s Вибране"
+
+#: includes/common/template.php:2613
+msgid "%s Replies"
+msgstr "%s Відповіді"
+
+#: includes/common/template.php:2609
+msgid "%s Topics"
+msgstr "%s Теми"
+
+#: includes/common/template.php:2604
+msgctxt "User viewing another users profile"
+msgid "%s's"
+msgstr "%s:"
+
+#: includes/common/template.php:2600
+msgctxt "User viewing his/her own profile"
+msgid "Your"
+msgstr "Ваш"
+
+#: includes/common/template.php:2582
+msgid "Topic: %s"
+msgstr "%s"
+
+#: includes/common/template.php:2577
+msgid "Forum: %s"
+msgstr "Форум: %s"
+
+#: includes/common/template.php:2570
+msgid "Topic Tag Edit: %s"
+msgstr "Змінити мітки теми:  %s"
+
+#: includes/common/template.php:2565
+msgid "Reply Edit: %s"
+msgstr "Змінити відповідь: %s"
+
+#: includes/common/template.php:2560
+msgid "Topic Edit: %s"
+msgstr "Змінити тему: %s"
+
+#: includes/common/template.php:2555
+msgid "Forum Edit: %s"
+msgstr "Змінити форум: %s"
+
+#: includes/common/template.php:2501
+msgid "Log Out"
+msgstr "Вийти"
+
+#: includes/common/template.php:2233
+msgid "&rsaquo;"
+msgstr "&rsaquo;"
+
+#: includes/common/template.php:2233
+msgid "&lsaquo;"
+msgstr "&lsaquo;"
+
+#: includes/common/template.php:2216 includes/forums/template.php:53
+#: includes/replies/template.php:53 includes/replies/template.php:1910
+#: includes/topics/template.php:53 includes/topics/template.php:2491
+#: templates/default/bbpress/user-details.php:65
+msgid "Edit"
+msgstr "Змінити"
+
+#: includes/common/template.php:2212 includes/common/template.php:2326
+#: includes/common/template.php:2591 includes/core/theme-compat.php:739
+#: templates/default/extras/taxonomy-topic-tag-edit.php:17
+#: templates/default/extras/taxonomy-topic-tag.php:17
+msgid "Topic Tag: %s"
+msgstr "Мітка: %s"
+
+#: includes/common/template.php:2208
+msgid "(Edit)"
+msgstr "(Змінити)"
+
+#: includes/common/template.php:2138
+msgid "Home"
+msgstr "Головна"
+
+#: includes/common/template.php:1467
+msgid "None available"
+msgstr "Недоступно"
+
+#: includes/common/template.php:1462
+msgid "No forums available"
+msgstr "Немає доступних форумів"
+
+#: includes/common/template.php:1457
+msgid "No topics available"
+msgstr "Нема доступних тем"
+
+#: includes/common/functions.php:2024
+msgid "Conditional query tags do not work before the query is run. Before then, they always return false."
+msgstr "Умовні теги запиту не працюють до виконання запиту. До цього, вони завжди повертають хибу."
+
+#: includes/common/functions.php:1256
+msgid ""
+"%1$s wrote:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Topic Link: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"You are receiving this email because you subscribed to a forum.\n"
+"\n"
+"Login and visit the topic to unsubscribe from these emails."
+msgstr ""
+"%1$s пише:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Посилання на тему: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"Ви отримали цей лист, тому що підписалися на форум.\n"
+"\n"
+"Щоб відписатися, авторизуйтесь і перейдіть за посиланням на тему."
+
+#: includes/common/functions.php:1099
+msgid ""
+"%1$s wrote:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Post Link: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"You are receiving this email because you subscribed to a forum topic.\n"
+"\n"
+"Login and visit the topic to unsubscribe from these emails."
+msgstr ""
+"%1$s пише:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Посилання на повідомлення: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"Ви отримали цей лист, тому що підписалися на тему форуму.\n"
+"\n"
+"Щоб відписатися, авторизуйтесь і перейдіть за посиланням на тему."
+
+#: includes/common/functions.php:628
+msgid "<strong>ERROR</strong>: Invalid email address submitted!"
+msgstr "<strong>ПОМИЛКА</strong>: Неправильна адресу e-mail!"
+
+#: includes/common/functions.php:624
+msgid "<strong>ERROR</strong>: Invalid author name submitted!"
+msgstr "<strong>ПОМИЛКА</strong>: Додано невірне ім'я автора!"
+
+#: includes/common/functions.php:514 includes/common/functions.php:546
+msgid "Trashed: %s"
+msgstr "В кошику: %s"
+
+#: includes/common/functions.php:513 includes/common/functions.php:545
+msgid "Spammed: %s"
+msgstr "Спам: %s"
+
+#: includes/common/functions.php:512 includes/common/functions.php:544
+msgid "Private: %s"
+msgstr "Приватне: %s"
+
+#: includes/common/functions.php:179
+msgctxt "Separator in time since"
+msgid ","
+msgstr ","
+
+#: includes/common/functions.php:124
+msgid "second"
+msgstr "сек."
+
+#: includes/common/functions.php:123
+msgid "minute"
+msgstr "хвилин"
+
+#: includes/common/functions.php:122
+msgid "hours"
+msgstr "годин"
+
+#: includes/common/functions.php:122
+msgid "hour"
+msgstr "година"
+
+#: includes/common/functions.php:121
+msgid "days"
+msgstr "днів"
+
+#: includes/common/functions.php:121
+msgid "day"
+msgstr "день"
+
+#: includes/common/functions.php:120
+msgid "weeks"
+msgstr "тижнів"
+
+#: includes/common/functions.php:120
+msgid "week"
+msgstr "тиждень"
+
+#: includes/common/functions.php:119
+msgid "months"
+msgstr "місяців"
+
+#: includes/common/functions.php:119
+msgid "month"
+msgstr "місяць"
+
+#: includes/common/functions.php:118
+msgid "years"
+msgstr "років"
+
+#: includes/common/functions.php:118
+msgid "year"
+msgstr "рік"
+
+#: includes/common/functions.php:114
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/common/functions.php:113
+msgid "right now"
+msgstr "прямо зараз"
+
+#: includes/common/functions.php:112
+msgid "sometime"
+msgstr "колись"
+
+#: includes/admin/users.php:217
+msgid "Site Role"
+msgstr "Роль сайту"
+
+#: includes/admin/users.php:144
+msgid "Change"
+msgstr "Змінити"
+
+#: includes/admin/users.php:138 includes/admin/users.php:140
+msgid "Change forum role to&hellip;"
+msgstr "Змінити роль форуму на &hellip;"
+
+#: includes/admin/users.php:96 includes/admin/users.php:100
+#: includes/users/template.php:1290
+msgid "&mdash; No role for these forums &mdash;"
+msgstr "&mdash; Нема ролей для цих форумів &mdash;"
+
+#: includes/admin/users.php:87 includes/admin/users.php:218
+#: templates/default/bbpress/form-user-roles.php:20
+msgid "Forum Role"
+msgstr "Роль форуму"
+
+#: includes/admin/topics.php:953
+msgid "Topic draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Тема оновлена <a target=\"_blank\" href=\"%s\">Перегляд теми</a>"
+
+#: includes/admin/topics.php:946
+msgid "Topic scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview topic</a>"
+msgstr "Тема запланована на: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Перегляд теми</a>"
+
+#: includes/admin/topics.php:943
+msgid "Topic submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Тема створена. <a target=\"_blank\" href=\"%s\">Перегляд теми</a>"
+
+#: includes/admin/topics.php:940
+msgid "Topic saved."
+msgstr "Тема збережена."
+
+#: includes/admin/topics.php:937
+msgid "Topic created. <a href=\"%s\">View topic</a>"
+msgstr "Тема створена. <a href=\"%s\">Перегляд теми</a>"
+
+#. translators: %s: date and time of the revision
+#: includes/admin/topics.php:933
+msgid "Topic restored to revision from %s"
+msgstr "Тема відновлена до редакції %s"
+
+#: includes/admin/topics.php:928
+msgid "Topic updated."
+msgstr "Тема була поновлена."
+
+#: includes/admin/topics.php:919
+msgid "Topic updated. <a href=\"%s\">View topic</a>"
+msgstr "Тема була поновлена. <a href=\"%s\">Перегляд теми</a>"
+
+#: includes/admin/topics.php:809
+msgid "Mark this topic as spam"
+msgstr "Виділити як спам"
+
+#: includes/admin/topics.php:807
+msgid "Mark the topic as not spam"
+msgstr "Ця тема не спам."
+
+#: includes/admin/topics.php:800 includes/topics/template.php:2747
+msgid "(to front)"
+msgstr "(завжди зверху)"
+
+#: includes/admin/topics.php:800
+msgid "Stick this topic to front"
+msgstr "Прикріпити тему в початок"
+
+#: includes/admin/topics.php:800 includes/topics/template.php:2745
+msgid "Stick"
+msgstr "Прикріпити"
+
+#: includes/admin/topics.php:800
+msgid "Stick this topic to its forum"
+msgstr "Прикріпити тему в форумі"
+
+#: includes/admin/topics.php:797 includes/topics/template.php:2746
+msgid "Unstick"
+msgstr "Відмінити закріплення"
+
+#: includes/admin/topics.php:797
+msgid "Unstick this topic"
+msgstr "Відмінити закріплення цю тему"
+
+#: includes/admin/topics.php:788
+msgctxt "Open a Topic"
+msgid "Open"
+msgstr "Відкрити тему"
+
+#: includes/admin/topics.php:788
+msgid "Open this topic"
+msgstr "Відкрити цю тему"
+
+#: includes/admin/topics.php:786
+msgctxt "Close a Topic"
+msgid "Close"
+msgstr "Закрити тему"
+
+#: includes/admin/topics.php:786
+msgid "Close this topic"
+msgstr "Закрити цю тему"
+
+#: includes/admin/topics.php:729 includes/topics/template.php:2064
+msgid "No Replies"
+msgstr "Відповідей немає"
+
+#: includes/admin/topics.php:694 includes/extend/buddypress/groups.php:295
+#: templates/default/bbpress/form-topic.php:117
+msgid "(No Forum)"
+msgstr "(Поза форумом)"
+
+#: includes/admin/topics.php:635 templates/default/bbpress/loop-topics.php:20
+msgid "Voices"
+msgstr "Участники"
+
+#: includes/admin/topics.php:599
+msgid "Topic \"%1$s\" successfully unmarked as spam."
+msgstr "Тема «%1$s» успішно позначена як не спам."
+
+#: includes/admin/topics.php:599
+msgid "There was a problem unmarking the topic \"%1$s\" as spam."
+msgstr "Не вдалося помітити тему  «%1$s» як не спам."
+
+#: includes/admin/topics.php:595
+msgid "Topic \"%1$s\" successfully marked as spam."
+msgstr "Тема «%1$s» успішно позначена як спам."
+
+#: includes/admin/topics.php:595
+msgid "There was a problem marking the topic \"%1$s\" as spam."
+msgstr "Не вдалося помітити тему «%1$s» як спам."
+
+#: includes/admin/topics.php:591
+msgid "Topic \"%1$s\" successfully unsticked."
+msgstr "Тема \"%1$s\" відкріплена."
+
+#: includes/admin/topics.php:591
+msgid "There was a problem unsticking the topic \"%1$s\"."
+msgstr "Не вдалося відкріпити тему  «%1$s»."
+
+#: includes/admin/topics.php:587
+msgid "Topic \"%1$s\" successfully sticked."
+msgstr "Тема \"%1$s\" прикріплена."
+
+#: includes/admin/topics.php:587
+msgid "There was a problem sticking the topic \"%1$s\"."
+msgstr "Не вдалося прикріпити тему «%1$s»."
+
+#: includes/admin/topics.php:583
+msgid "Topic \"%1$s\" successfully sticked to front."
+msgstr "Тема \"%1$s\" прикріплена в початок."
+
+#: includes/admin/topics.php:583
+msgid "There was a problem sticking the topic \"%1$s\" to front."
+msgstr "Не вдалося прикріпити тему «%1$s» на головну."
+
+#: includes/admin/topics.php:579
+msgid "Topic \"%1$s\" successfully closed."
+msgstr "Тема «%1$s» успішно закрита."
+
+#: includes/admin/topics.php:579
+msgid "There was a problem closing the topic \"%1$s\"."
+msgstr "Не вдалося закрити тему «%1$s»."
+
+#: includes/admin/topics.php:575
+msgid "Topic \"%1$s\" successfully opened."
+msgstr "Тема «%1$s» успішно відкрита."
+
+#: includes/admin/topics.php:575
+msgid "There was a problem opening the topic \"%1$s\"."
+msgstr "Не вдалося відкрити тему «%1$s»."
+
+#: includes/admin/topics.php:485
+msgid "The topic was not found!"
+msgstr "Тема не знайдена!"
+
+#: includes/admin/topics.php:223
+msgid "<strong>Topic Type</strong> dropdown indicates the sticky status of the topic. Selecting the super sticky option would stick the topic to the front of your forums, i.e. the topic index, sticky option would stick the topic to its respective forum. Selecting normal would not stick the topic anywhere."
+msgstr "<strong>Тип теми</strong> — задає розташування теми. При виборі варіанту «Завжди зверху» тема буде відображатися на початку списку всіх тем на головній сторінці форумів. Варіант «Прикріплена» буде показувати її першою в відповідному форумі. Варіант «Звичайна» не закріплює тему."
+
+#: includes/admin/topics.php:222
+msgid "<strong>Forum</strong> dropdown determines the parent forum that the topic belongs to. Select the forum or category from the dropdown, or leave the default (No Forum) to post the topic without an assigned forum."
+msgstr "<strong>Форум</strong> — визначає батьківський форум, до якого належить тема. Виберіть форум або категорію зі списку або залиште значення за замовчуванням (зараз на форумі), щоб створити тему без прив'язки до форуму."
+
+#: includes/admin/topics.php:220
+msgid "Select the attributes that your topic should have:"
+msgstr "Виберіть параметри, які повинна мати ваша тема:"
+
+#: includes/admin/topics.php:218 includes/admin/topics.php:255
+msgid "Topic Attributes"
+msgstr "Параметри теми"
+
+#: includes/admin/topics.php:213
+msgid "<strong>Featured Image</strong> - This allows you to associate an image with your topic without inserting it. This is usually useful only if your theme makes use of the featured image as a topic thumbnail on the home page, a custom header, etc."
+msgstr "<strong>Мініатюра</strong> - Дозволяє зв'язати зображення з вашою темою, не вставляючи його в тіло повідомлення. Як правило, це корисно тільки якщо ваша тема оформлення здатна використовувати мініатюру теми на домашній сторінці, в довільному заголовку і т.д."
+
+#: includes/admin/topics.php:210
+msgid "<strong>Publish</strong> - You can set the terms of publishing your topic in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a topic or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a topic to be published in the future or backdate a topic."
+msgstr "<strong>Публікація</strong> - Ви можете задати умови публікації вашої теми у вікні публікації. Для зміни статусу, видимості, і публікації (відразу), натисніть на посилання Змінити, щоб відобразилися додаткові параметри. Видимість включає в себе варіанти захисту паролем теми або закріплює її в топі вашого блогу на невизначений термін (прикріплена). Публікація (відразу) дозволяє встановити майбутнє або минуле дату і час, так що ви можете запланувати, чи буде тема опублікована в майбутньому, або заднім числом."
+
+#: includes/admin/topics.php:207
+msgid "<strong>Topic Editor</strong> - Enter the text for your topic. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your topic text. You can insert media files by clicking the icons above the topic editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular topic editor."
+msgstr "<strong>Редактор теми</strong> - Введіть текст вашої теми. Є два режими редагування: візуальний і HTML. Виберіть режим, натиснувши на відповідну вкладку. Візуальний режим надасть вам WYSIWYG редактор. Натисніть на останню іконку в рядку, щоб отримати другий рядок елементів управленія.Режім HTML дозволяє ввести чистий HTML разом з текстом вашої теми. Ви можете вставити мультимедійні файли, натиснувши на значки над редактором теми і згідно з інструкціями. Ви можете перейти в повноекранний режим, натиснувши на кнопку (друга в верхньому ряду) або кнопкою на весь екран в режимі HTML (остання в ряду). Опинившись там, ви можете зробити видимими кнопки, підвівши курсор до верхньої частини. У звичайний режим поверне вас назад в редактор теми."
+
+#: includes/admin/topics.php:206
+msgid "<strong>Title</strong> - Enter a title for your topic. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr "<strong>Заголовок</strong> - Введіть назву вашої теми. Після введення назви, ви побачите постійне посилання нижче, яке можна редагувати."
+
+#: includes/admin/topics.php:204
+msgid "Title and Topic Editor"
+msgstr "Редактор заголовків і тем"
+
+#: includes/admin/topics.php:194
+msgid "The title field and the big topic editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Поле назви і велика площа для редагування теми фіксуються на місці, але ви можете змінити всі інші блоки за допомогою перетягування, а можна згорнути або розгорнути їх, клікнувши на заголовок кожного вікна. Клікніть на вкладці екрану, щоб відобразити додаткові поля (Цитата, Відправити зворотні посилання, Довільні поля, Обговорення, Ярлик, Автор) або вибрати 1 - або 2-колонки для цього екрану."
+
+#: includes/admin/topics.php:173
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected topics at once. To remove a topic from the grouping, just click the x next to its name in the Bulk Edit area that appears."
+msgstr "При використанні опції масової зміни, ви можете змінити метадані (категорії, автор і т.д.) для всіх обраних тем одночасно. Щоб видалити тему з групи, просто натисніть на хрестик поруч з її ім'ям в області що з'явилася для масового редагування."
+
+#: includes/admin/topics.php:172
+msgid "You can also edit or move multiple topics to the trash at once. Select the topics you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Ви також можете змінити або перемістити в кошик кілька тем одночасно. Позначте теми, з якими необхідно провести потрібні дії, потім виберіть потрібне в меню дій і натисніть кнопку \"Застосувати\"."
+
+#: includes/admin/topics.php:163
+msgid "<strong>Stick <em>(to front)</em></strong> will keep the selected topic &#8217;pinned&#8217; to the top of ALL forums and be visable in any forums topics list."
+msgstr "<strong>Прикріпити <em>(на головній)</em></strong> позначити обрану тему як  &#8217;прикріплена&#8217; і показувати її у верхній частині на всіх форумах і буде видно в будь-якому списку тем форуму."
+
+#: includes/admin/topics.php:162
+msgid "<strong>Stick</strong> will keep the selected topic &#8217;pinned&#8217; to the top the parent forum topic list."
+msgstr "<strong>Прикріпити</strong> позначити обрану тему як  &#8217;прикріплена&#8217; і показувати її у верхній частині списку тем батьківського форуму."
+
+#: includes/admin/topics.php:161
+msgid "<strong>Close</strong> will mark the selected topic as &#8217;closed&#8217; and disable the option to post new replies to the topic."
+msgstr "<strong>Закрити</strong> позначити обрану тему як  &#8217;закрита&#8217; і відключити можливість створювати нові відповіді на цю тему."
+
+#: includes/admin/topics.php:160
+msgid "<strong>Preview</strong> will show you what your draft topic will look like if you publish it. View will take you to your live site to view the topic. Which link is available depends on your topic&#8217;s status."
+msgstr "<strong>Попередній перегляд</strong> покаже вам, як буде виглядати ваша тема після публікації. Перегляд направить вас на сайт для перегляду теми. Яке посилання доступне - залежить від статусу вашої теми."
+
+#: includes/admin/topics.php:159
+msgid "<strong>Spam</strong> removes your topic from this list and places it in the spam queue, from which you can permanently delete it."
+msgstr "<strong>Спам</strong> видаляє вашу тему з цього списку і поміщає її в чергу спаму, з якої її можна видалити назавжди."
+
+#: includes/admin/topics.php:158
+msgid "<strong>Trash</strong> removes your topic from this list and places it in the trash, from which you can permanently delete it."
+msgstr "<strong>Кошик</strong> видаляє вашу тему з цього списку і переносить її в кошик, з якого його можна видалити назавжди."
+
+#: includes/admin/topics.php:157
+msgid "<strong>Edit</strong> takes you to the editing screen for that topic. You can also reach that screen by clicking on the topic title."
+msgstr "<strong>Змінити</strong> веде на сторінку редагування цієї теми. На цю сторінку також можна потрапити клікнувши на заголовку теми."
+
+#: includes/admin/topics.php:155
+msgid "Hovering over a row in the topics list will display action links that allow you to manage your topic. You can perform the following actions:"
+msgstr "При наведенні курсора на рядок у списку тем будуть показані посилання на дії, які дозволяють вам керувати вашою темою. Ви можете виконати наступні дії:"
+
+#: includes/admin/topics.php:146
+msgid "You can refine the list to show only topics from a specific month by using the dropdown menus above the topics list. Click the Filter button after making your selection. You also can refine the list by clicking on the topic creator in the topics list."
+msgstr "Ви можете відфільтрувати список тем за місяцями за допомогою меню, що випадає над списком тем. Натисніть кнопку Фільтр і оберіть місяць який Вас цікавить. Ви можете також відфільтрувати список тем по творцеві теми, клікнувши на творця теми в списку тем."
+
+#: includes/admin/topics.php:145
+msgid "You can filter the list of topics by topic status using the text links in the upper left to show All, Published, or Trashed topics. The default view is to show all topics."
+msgstr "Ви можете відфільтрувати теми по статусу, використовуючи текстові посилання у верхньому лівому кутку, щоб показати все, опубліковані або віддалені теми. За замовчуванням показуються всі теми."
+
+#: includes/admin/topics.php:144
+msgid "You can hide/display columns based on your needs and decide how many topics to list per screen using the Screen Options tab."
+msgstr "Ви можете приховати/показати стовпці в залежності від потреб і вирішити, скільки тем буде показано на екрані за допомогою вкладки \"Налаштування екрану\"."
+
+#: includes/admin/topics.php:134
+msgid "This screen displays the individual topics on your site. You can customize the display of this screen to suit your workflow."
+msgstr "Ця сторінка показує індивідуальні теми на вашому сайті. Ви можете налаштовувати показ цієї сторінки для задоволення ваших потреб."
+
+#: includes/admin/tools.php:1370
+msgid "Deleting Roles and Capabilities&hellip; %s"
+msgstr "Видалення ролей і можливостей&hellip; %s"
+
+#: includes/admin/tools.php:1364
+msgid "Deleting Settings&hellip; %s"
+msgstr "Видалення налаштувань&hellip; %s"
+
+#: includes/admin/tools.php:1352
+msgid "Deleting Conversion Table&hellip; %s"
+msgstr "Видалення таблиці перетворення&hellip; %s"
+
+#: includes/admin/tools.php:1336 includes/admin/tools.php:1344
+msgid "Deleting User Meta&hellip; %s"
+msgstr "Видалення метаданих користувачів&hellip; %s"
+
+#: includes/admin/tools.php:1331
+msgid "Deleting User&hellip; %s"
+msgstr "Видалити користувача&hellip; %s"
+
+#: includes/admin/tools.php:1316
+msgid "Deleting Topic Tags&hellip; %s"
+msgstr "Видалення міток теми&hellip; %s"
+
+#: includes/admin/tools.php:1307
+msgid "Deleting Post Meta&hellip; %s"
+msgstr "Видалення метаданих повідомлень&hellip; %s"
+
+#: includes/admin/tools.php:1294
+msgid "Deleting Posts&hellip; %s"
+msgstr "Видалення повідомлень&hellip; %s"
+
+#: includes/admin/tools.php:1287
+msgid "Success!"
+msgstr "Успішно!"
+
+#: includes/admin/tools.php:1286
+msgid "Failed"
+msgstr "Невдача"
+
+#: includes/admin/tools.php:1253
+msgid "Reset bbPress"
+msgstr "Обнулити bbPress"
+
+#: includes/admin/tools.php:1245
+msgid "Human sacrifice, dogs and cats living together... mass hysteria!"
+msgstr "Людська жертва, собаки і кішки живуть разом ... масова істерія!"
+
+#: includes/admin/tools.php:1244
+msgid "This process cannot be undone."
+msgstr "Цей процес не може бути скасований."
+
+#: includes/admin/tools.php:1240
+msgid "Are you sure you want to do this?"
+msgstr "Ви впевнені, що хочете зробити це?"
+
+#: includes/admin/tools.php:1235
+msgid "Note: Resetting without this checked will delete the meta-data necessary to delete these users."
+msgstr "Примітка: Скидання без цієї перевірки видалить мета-дані, необхідні для видалення цих користувачів."
+
+#: includes/admin/tools.php:1234
+msgid "This option will delete all previously imported users, and cannot be undone."
+msgstr "Ця опція видалить всіх раніше імпортованих користувачів, і не може бути скасована."
+
+#: includes/admin/tools.php:1233 includes/admin/tools.php:1243
+msgid "Say it ain't so!"
+msgstr "Скажи, що це не так!"
+
+#: includes/admin/tools.php:1230
+msgid "Delete imported users?"
+msgstr "Видалити імпортованих користувачів?"
+
+#: includes/admin/tools.php:1226
+msgid "Importer Helper Data"
+msgstr "Помічник імпортера даних"
+
+#: includes/admin/tools.php:1225
+msgid "Forum User Roles"
+msgstr "Ролі користувачів форуму"
+
+#: includes/admin/tools.php:1224
+msgid "Forum Activity"
+msgstr "Активність форуму"
+
+#: includes/admin/tools.php:1223
+msgid "Forum Settings"
+msgstr "Налаштування форуму"
+
+#: includes/admin/tools.php:1222
+msgid "Related Meta Data"
+msgstr "Мета дані тем"
+
+#: includes/admin/tools.php:1221
+msgid "All Topic Tags"
+msgstr "Всі мітки теми"
+
+#: includes/admin/tools.php:1220 includes/replies/functions.php:1994
+#: includes/replies/template.php:50
+msgid "All Replies"
+msgstr "Всі відповіді"
+
+#: includes/admin/tools.php:1219 includes/topics/functions.php:3439
+#: includes/topics/template.php:50
+msgid "All Topics"
+msgstr "Всі теми"
+
+#: includes/admin/tools.php:1218 includes/forums/template.php:50
+msgid "All Forums"
+msgstr "Всі форуми"
+
+#: includes/admin/tools.php:1216
+msgid "The following data will be removed:"
+msgstr "Наступні дані будуть видалені:"
+
+#: includes/admin/tools.php:1210
+msgid "Backup your database before proceeding."
+msgstr "Зробіть резервне копіювання бази даних перш ніж продовжити."
+
+#: includes/admin/tools.php:1209
+msgid "Revert your forums back to a brand new installation. This process cannot be undone."
+msgstr "Скинути форум до стану нової установки. Цей процес є незворотним."
+
+#: includes/admin/tools.php:1100
+msgid "Recalculating the topic for each post &hellip; %s"
+msgstr "Перерахувати тему для кожного повідомлення &hellip; %s"
+
+#: includes/admin/tools.php:1046
+msgid "Recalculating the forum for each post &hellip; %s"
+msgstr "Перерахувати форум для кожного повідомлення &hellip; %s"
+
+#: includes/admin/tools.php:1022
+msgid "Recalculating forum visibility &hellip; %s"
+msgstr "Перерахунок видимості форуму"
+
+#: includes/admin/tools.php:965
+msgid "Repairing the sticky topic to the parent forum relationships&hellip; %s"
+msgstr "Відновлення прикріпленої теми по відношенню до батьківського форуму&hellip; %s"
+
+#: includes/admin/tools.php:859
+msgid "Recomputing latest post in every topic and forum&hellip; %s"
+msgstr "Перерахувати останні відповіді в кожній темі і форумі&hellip; %s"
+
+#: includes/admin/tools.php:843
+msgid "Complete! %s users updated."
+msgstr "Готово! %s користувачі оновлені."
+
+#: includes/admin/tools.php:805
+msgid "Remapping forum role for each user on this site&hellip; %s"
+msgstr "Перепризначення ролі форуму для кожного користувача на цьому сайті&hellip; %s"
+
+#: includes/admin/tools.php:743
+msgid "Removing trashed forums from user subscriptions&hellip; %s"
+msgstr "Забираю видалені форуми з підписок користувача&hellip; %s"
+
+#: includes/admin/tools.php:682
+msgid "Removing trashed topics from user subscriptions&hellip; %s"
+msgstr "Видалити переміщені в кошик призначені для користувача підписки&hellip; %s"
+
+#: includes/admin/tools.php:650 includes/admin/tools.php:711
+#: includes/admin/tools.php:772
+msgid "Nothing to remove!"
+msgstr "Видалення неможливо!"
+
+#: includes/admin/tools.php:620
+msgid "Removing trashed topics from user favorites&hellip; %s"
+msgstr "Видалити переміщені в кошик призначені для користувача обрані&hellip; %s"
+
+#: includes/admin/tools.php:575
+msgid "Counting the number of topics to which each user has replied&hellip; %s"
+msgstr "Порахувати кількість тем в яких кожен користувач має форум&hellip; %s"
+
+#: includes/admin/tools.php:530
+msgid "Counting the number of topics each user has created&hellip; %s"
+msgstr "Підрахунок кількості тем, створених кожним користувачем&hellip; %s"
+
+#: includes/admin/tools.php:487
+msgid "Counting the number of replies in each forum&hellip; %s"
+msgstr "Порахувати кількість відповідей у всіх форумах&hellip; %s"
+
+#: includes/admin/tools.php:453
+msgid "Counting the number of topics in each forum&hellip; %s"
+msgstr "Порахувати кількість тем у всіх форумах&hellip; %s"
+
+#: includes/admin/tools.php:434
+msgid "Complete! %s groups updated; %s forums updated; %s forum statuses synced."
+msgstr "Завершено! %s груп оновлено; %s форумів оновлено; %s статусів форумів синхронізовано."
+
+#: includes/admin/tools.php:418
+msgid "group-forums"
+msgstr "форуми груп"
+
+#: includes/admin/tools.php:417
+msgid "Group Forums"
+msgstr "Форуми груп"
+
+#: includes/admin/tools.php:316
+msgid "Repairing BuddyPress group-forum relationships&hellip; %s"
+msgstr "Відновлення відносин групових форумів BuddyPress&hellip; %s"
+
+#: includes/admin/tools.php:291
+msgid "Counting the number of spammed and trashed replies in each topic&hellip; %s"
+msgstr "Порахувати кількість спаму і видалених відповідей у всіх темах&hellip; %s"
+
+#: includes/admin/tools.php:249
+msgid "Counting the number of voices in each topic&hellip; %s"
+msgstr "Порахувати кількість учасників у всіх темах&hellip; %s"
+
+#: includes/admin/tools.php:233 includes/admin/tools.php:276
+#: includes/admin/tools.php:302 includes/admin/tools.php:469
+#: includes/admin/tools.php:514 includes/admin/tools.php:559
+#: includes/admin/tools.php:604 includes/admin/tools.php:666
+#: includes/admin/tools.php:727 includes/admin/tools.php:788
+#: includes/admin/tools.php:950 includes/admin/tools.php:1007
+#: includes/admin/tools.php:1030 includes/admin/tools.php:1085
+#: includes/admin/tools.php:1130 includes/admin/tools.php:1186
+msgid "Complete!"
+msgstr "Готово!"
+
+#: includes/admin/tools.php:199 includes/admin/tools.php:250
+#: includes/admin/tools.php:292 includes/admin/tools.php:337
+#: includes/admin/tools.php:454 includes/admin/tools.php:488
+#: includes/admin/tools.php:531 includes/admin/tools.php:576
+#: includes/admin/tools.php:621 includes/admin/tools.php:683
+#: includes/admin/tools.php:744 includes/admin/tools.php:812
+#: includes/admin/tools.php:860 includes/admin/tools.php:966
+#: includes/admin/tools.php:1026 includes/admin/tools.php:1047
+#: includes/admin/tools.php:1101
+msgid "Failed!"
+msgstr "Помилка!"
+
+#: includes/admin/tools.php:198
+msgid "Counting the number of replies in each topic&hellip; %s"
+msgstr "Перерахувати кількість відповідей у всіх темах&hellip; %s"
+
+#: includes/admin/tools.php:178
+msgid "Remap existing users to default forum roles"
+msgstr "Перепризначити існуючих користувачів до ролей форуму за замовчуванням"
+
+#: includes/admin/tools.php:177
+msgid "Remove trashed forums from user subscriptions"
+msgstr "Видалити форуми, переміщені в кошик, з підписок користувача"
+
+#: includes/admin/tools.php:176
+msgid "Remove trashed topics from user subscriptions"
+msgstr "Видалити теми, переміщені в кошик, з підписок користувача"
+
+#: includes/admin/tools.php:175
+msgid "Remove trashed topics from user favorites"
+msgstr "Видалити теми, переміщені в кошик, з обраного користувача"
+
+#: includes/admin/tools.php:174
+msgid "Count replies for each user"
+msgstr "Порахувати відповіді кожного учасника"
+
+#: includes/admin/tools.php:173
+msgid "Count topics for each user"
+msgstr "Порахувати кількість тем для кожного користувача"
+
+#: includes/admin/tools.php:172
+msgid "Count spammed & trashed replies in each topic"
+msgstr "Порахувати спам і видалені відповіді в кожній темі"
+
+#: includes/admin/tools.php:171
+msgid "Count voices in each topic"
+msgstr "Порахувати учасників в кожній темі"
+
+#: includes/admin/tools.php:170
+msgid "Count replies in each topic"
+msgstr "Порахувати відповіді в кожній темі"
+
+#: includes/admin/tools.php:169
+msgid "Count replies in each forum"
+msgstr "Порахувати відповіді в кожному форумі"
+
+#: includes/admin/tools.php:168
+msgid "Count topics in each forum"
+msgstr "Порахувати кількість тем в кожному форумі"
+
+#: includes/admin/tools.php:167
+msgid "Repair BuddyPress Group Forum relationships"
+msgstr "Відновити зв'язки форуму груп BuddyPress"
+
+#: includes/admin/tools.php:165
+msgid "Recalculate the sticky relationship of each topic"
+msgstr "Перерахувати зв'язки-стікери для кожної теми"
+
+#: includes/admin/tools.php:164
+msgid "Recalculate last activity in each topic and forum"
+msgstr "Перерахувати останню активність у всіх темах і відповідях"
+
+#: includes/admin/tools.php:163
+msgid "Recalculate private and hidden forums"
+msgstr "Перерахувати особисті і приховані форуми"
+
+#: includes/admin/tools.php:162
+msgid "Recalculate the parent forum for each post"
+msgstr "Перерахувати батьківські форуми для кожного повідомлення"
+
+#: includes/admin/tools.php:161
+msgid "Recalculate the parent topic for each post"
+msgstr "Перерахувати батьківські теми для кожного повідомлення"
+
+#: includes/admin/tools.php:61
+msgid "Repair Items"
+msgstr "Відновити вибрані"
+
+#: includes/admin/tools.php:46
+msgid "Repair"
+msgstr "Відновлення"
+
+#: includes/admin/tools.php:43
+msgid "Relationships to Repair:"
+msgstr "Значення для корекції:"
+
+#: includes/admin/tools.php:37
+msgid "Some of these tools create substantial database overhead. Avoid running more than 1 repair job at a time."
+msgstr "Деякі з цих інструментів створюють суттєві навантаження на базу даних. Не слід запускати більш 1 сервісних завдань одночасно."
+
+#: includes/admin/tools.php:36
+msgid "bbPress keeps track of relationships between forums, topics, replies, and topic tags, and users. Occasionally these relationships become out of sync, most often after an import or migration. Use the tools below to manually recalculate these relationships."
+msgstr "bbPress відстежує зв'язки між форумами, темами, відповідями, мітками тем і користувачами. Іноді ці значення випадають з синхронізації, найчастіше після імпорту або міграції. Використовуйте інструменти нижче, щоб вручну перерахувати ці значення."
+
+#: includes/admin/settings.php:1755
+msgid "Possible %1$s conflict: %2$s"
+msgstr "Можливий конфлікт з %1$s : %2$s"
+
+#: includes/admin/settings.php:1736
+msgid "%s page"
+msgstr "%s сторінка"
+
+#: includes/admin/settings.php:1724
+msgid "Topic tag slug"
+msgstr "Ярлик мітки теми"
+
+#: includes/admin/settings.php:1721
+msgid "View base"
+msgstr "Ярлик перегляду"
+
+#: includes/admin/settings.php:1718
+msgid "User base"
+msgstr "Ярлик користувача"
+
+#: includes/admin/settings.php:1715
+msgid "Reply slug"
+msgstr "Ярлик відповіді"
+
+#: includes/admin/settings.php:1712
+msgid "Topic slug"
+msgstr "Ярлик теми"
+
+#: includes/admin/settings.php:1709
+msgid "Forum slug"
+msgstr "Ярлик форуму"
+
+#: includes/admin/settings.php:1706
+msgid "Topics base"
+msgstr "Базовий префікс тем"
+
+#: includes/admin/settings.php:1703
+msgid "Forums base"
+msgstr "Базовий префікс форумів"
+
+#: includes/admin/settings.php:1698
+msgid "Category base"
+msgstr "Префікс для рубрик"
+
+#: includes/admin/settings.php:1695
+msgid "Tag base"
+msgstr "Префікс для міток"
+
+#: includes/admin/settings.php:1692
+msgid "Menus"
+msgstr "Меню"
+
+#: includes/admin/settings.php:1691
+msgid "Attachments"
+msgstr "Вкладення"
+
+#: includes/admin/settings.php:1689
+msgid "Pages"
+msgstr "Сторінки"
+
+#: includes/admin/settings.php:1688
+#: templates/default/bbpress/loop-forums.php:21
+#: templates/default/bbpress/loop-replies.php:24
+#: templates/default/bbpress/loop-replies.php:66
+#: templates/default/bbpress/loop-topics.php:21
+msgid "Posts"
+msgstr "Повідомлення"
+
+#: includes/admin/settings.php:1590
+msgid "In the event of a slug collision with WordPress or BuddyPress, a warning will appear next to the problem slug(s)."
+msgstr "У разі конфлікту з ярликами WordPress або BuddyPress поруч з проблемним ярликом з'явиться попередження."
+
+#: includes/admin/settings.php:1589
+msgid "\"Single Slugs\" are used as a prefix when viewing an individual forum, topic, reply, user, or view."
+msgstr "\"Налашовувані ярлики\" використовуються як префікс для перегляду окремих форумів, тем, відповідей, міток, користувачів і переглядів."
+
+#: includes/admin/settings.php:1588
+msgid "\"Archive Slugs\" are used as the \"root\" for your forums and topics. If you combine these values with existing page slugs, bbPress will attempt to output the most correct title and content."
+msgstr "\"Базові ярлики\" використовуються як \"корінь\" для форуму і тем. Якщо ви введете значення, що збігаються з існуючими ярликами сторінок, bbPress не зможе правильно показати вміст і заголовок форуму."
+
+#: includes/admin/settings.php:1587
+msgid "The Slugs section allows you to control the permalink structure for your forums."
+msgstr "Розділ Ярлики дозволяє управляти структурою постійних посилань форуму."
+
+#: includes/admin/settings.php:1586
+msgid "Slugs"
+msgstr "Ярлики"
+
+#: includes/admin/settings.php:1580
+msgid "These are broken up into two separate groups: one for what appears in your theme, another for RSS feeds."
+msgstr "Вони розбиті на дві групи: одна відповідає за те, що з'являється у вашій темі, інша для RSS-каналів."
+
+#: includes/admin/settings.php:1579
+msgid "This is comparable to the WordPress \"Reading Settings\" page, where you can set the number of posts that should show on blog pages and in feeds."
+msgstr "Це можна порівняти з \"Установкою читання\" в WordPress, де ви можете задати кількість записів, які повинні показуватися на сторінках блогу і в архівах."
+
+#: includes/admin/settings.php:1578
+msgid "Per Page settings allow you to control the number of topics and replies appear on each page."
+msgstr "Налаштування на сторінку дозволяють контролювати кількість питань і відповідей які показуються на кожній сторінці."
+
+#: includes/admin/settings.php:1577
+msgid "Per Page"
+msgstr "На сторінку"
+
+#: includes/admin/settings.php:1571
+msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
+msgstr "Ви повинні натиснути кнопку \"Зберегти зміни\" в нижній частині екрана, щоб нові налаштування вступили в силу."
+
+#: includes/admin/settings.php:1568
+msgid "Auto-embed will embed the media content from a URL directly into the replies. For example: links to Flickr and YouTube."
+msgstr "Авто-вставка дозволить розмістити медіа-контент з URL безпосередньо в відповідях. Наприклад: посилання на Flickr і YouTube."
+
+#: includes/admin/settings.php:1567
+msgid "The Fancy Editor brings the luxury of the Visual editor and HTML editor from the traditional WordPress dashboard into your theme."
+msgstr "Розширений редактор задає таку розкіш як візуальний і HTML редактор, з традиційної консолі управління WordPress в вашій темі."
+
+#: includes/admin/settings.php:1566
+msgid "\"Anonymous Posting\" allows guest users who do not have accounts on your site to both create topics as well as replies."
+msgstr "\"Анонімна публікація\" дозволяє створювати теми та відповіді користувачам, які не мають облікового запису на вашому сайті."
+
+#: includes/admin/settings.php:1565
+msgid "Topic-Tags allow users to filter topics between forums. This is enabled by default."
+msgstr "Мітки тем дозволяють користувачам фільтрувати теми між форумами. За замовчуванням дозволено."
+
+#: includes/admin/settings.php:1564
+msgid "Subscriptions allow users to subscribe for notifications to topics that interest them. This is enabled by default."
+msgstr "Підписка дозволяє користувачам підписатися на повідомлення тем, які їх цікавлять. Ця опція включена за замовчуванням."
+
+#: includes/admin/settings.php:1563
+msgid "Favorites are a way for users to save and later return to topics they favor. This is enabled by default."
+msgstr "Вибране це можливість для користувачів зберегти і пізніше повернутися до тем, які їх зацікавили. Ця опція включена за замовчуванням."
+
+#: includes/admin/settings.php:1562
+msgid "\"Throttle time\" is the amount of time required between posts from a single author. The higher the throttle time, the longer a user will need to wait between posting to the forum."
+msgstr "\"Затримка публікації\" - кількість часу, що проходить між публікаціями від одного автора. Чим вище затримка, тим довше користувач буде очікувати публікації в форумі."
+
+#: includes/admin/settings.php:1561
+msgid "You can choose to lock a post after a certain number of minutes. \"Locking post editing\" will prevent the author from editing some amount of time after saving a post."
+msgstr "Ви можете заблокувати повідомлення через певну кількість хвилин. \"Заборонити редагування повідомлення після\" не дозволить автору редагувати повідомлення через вказану кількість хвилин після публікації."
+
+#: includes/admin/settings.php:1558
+msgid "In the Main Settings you have a number of options:"
+msgstr "У головному меню ви можете вибрати кілька варіантів настройки:"
+
+#: includes/admin/settings.php:1557
+msgid "Main Settings"
+msgstr "Основні установки"
+
+#: includes/admin/settings.php:1551
+msgid "Please see the additional help tabs for more information on each indiviual section."
+msgstr "Будь ласка, ознайомтеся з додатковими вкладками для отримання докладної інформації по кожному розділу."
+
+#: includes/admin/settings.php:1550
+msgid "This screen provides access to all of the Forums settings."
+msgstr "Цей екран надає доступ до всіх налаштувань форуму."
+
+#: includes/admin/settings.php:1519
+msgid "Stop"
+msgstr "Стоп"
+
+#: includes/admin/settings.php:1518
+msgid "Start"
+msgstr "Старт (Почати)"
+
+#: includes/admin/settings.php:1488
+msgid "Non-bbPress passwords cannot be automatically converted. They will be converted as each user logs in."
+msgstr "Не bbPress паролі не можуть бути автоматично перетворені. Вони будуть перетворені при вході користувача в систему."
+
+#: includes/admin/settings.php:1487
+msgid "Attempt to import user accounts from previous forums"
+msgstr "Спроба імпортувати облікові записи користувачів з попередніх форумів."
+
+#: includes/admin/settings.php:1473
+msgid "Use this if an import failed and you want to remove that incomplete data."
+msgstr "Використовуйте це якщо сталася помилка імпорту, і ви хочете видалити неповні дані."
+
+#: includes/admin/settings.php:1472
+msgid "Purge all information from a previously attempted import"
+msgstr "Очистити всю інформацію про раніше зроблений імпорт"
+
+#: includes/admin/settings.php:1458
+msgid "You should clean old conversion information before starting over."
+msgstr "Вам потрібно очистити інформацію старого перетворення, перш ніж почати."
+
+#: includes/admin/settings.php:1457
+msgid "Start a fresh conversion from the beginning"
+msgstr "Почати нове перетворення з самого спочатку"
+
+#: includes/admin/settings.php:1443
+msgid "Keep this high to prevent too-many-connection issues."
+msgstr "Задайте це значення більшим, щоб запобігти проблемам з великою кількістю з'єднань."
+
+#: includes/admin/settings.php:1442
+msgid "second(s) delay between each group of rows"
+msgstr "секунд (и) затримки між кожною групою рядків"
+
+#: includes/admin/settings.php:1428
+msgid "Keep this low if you experience out-of-memory issues."
+msgstr "Зменшіть це значення при виникненні проблеми з нестачею пам'яті."
+
+#: includes/admin/settings.php:1427
+msgid "rows to process at a time"
+msgstr "рядків обробляти за один раз"
+
+#: includes/admin/settings.php:1413
+msgid "(If converting from BuddyPress Forums, use \"wp_bb_\" or your custom prefix)"
+msgstr "(Якщо конвертуються форуми BuddyPress, використовуйте \"wp_bb_\" або ваш особливий префікс)"
+
+#: includes/admin/settings.php:1399
+msgid "Some optional parameters to help tune the conversion process."
+msgstr "Деякі додаткові параметри, які допомагають налаштувати процес перетворення."
+
+#: includes/admin/settings.php:1386
+msgid "Name of the database with your old forum data"
+msgstr "Ім'я бази даних з вашими старими даними форуму"
+
+#: includes/admin/settings.php:1372
+msgid "Password to access the database"
+msgstr "Пароль для доступу до бази даних"
+
+#: includes/admin/settings.php:1358
+msgid "User for your database connection"
+msgstr "Користувач для з'єднання з базою даних"
+
+#: includes/admin/settings.php:1344
+msgid "Use default 3306 if unsure"
+msgstr "Якщо не впевнені, використовуйте порт за замовчуванням 3306"
+
+#: includes/admin/settings.php:1330
+msgid "IP or hostname"
+msgstr "IP або ім'я хоста"
+
+#: includes/admin/settings.php:1316
+msgid "is the previous forum software"
+msgstr "це попереднє програмне забезпечення форуму"
+
+#: includes/admin/settings.php:1286
+msgid "Information about your previous forums database so that they can be converted. <strong>Backup your database before proceeding.</strong>"
+msgstr "Інформація про вашу попередню базу даних форумів, щоб вони могли бути перетворені.<strong>Створіть резервну копію вашої бази даних перед початком процесу.</strong>"
+
+#: includes/admin/settings.php:1267
+#: templates/default/bbpress/form-user-edit.php:173
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: includes/admin/settings.php:1258
+msgid "Forums Settings"
+msgstr "Налаштування форуму"
+
+#: includes/admin/settings.php:1235
+msgid "Allow Akismet to actively prevent forum spam."
+msgstr "Дозволити Akismet активно запобігати спам форуму."
+
+#: includes/admin/settings.php:1218
+msgid "Forum settings for Akismet"
+msgstr "Налаштування форуму для Akismet"
+
+#: includes/admin/settings.php:1203
+msgid "Using the Forum Root is not recommended. Changing this does not move existing forums."
+msgstr "Використання кореня форуму не рекомендується. Ця зміна не торкнеться вже існуючих форумів."
+
+#: includes/admin/settings.php:1202
+msgid "is the parent for all group forums"
+msgstr "є батьківським для всіх форумів груп"
+
+#: includes/admin/settings.php:1194
+msgid "&mdash; Forum root &mdash;"
+msgstr "&mdash; Корінь форуму &mdash;"
+
+#: includes/admin/settings.php:1177
+msgid "Allow BuddyPress Groups to have their own forums"
+msgstr "Дозволити групам BuddyPress мати власні форуми"
+
+#: includes/admin/settings.php:1161
+msgid "Forum settings for BuddyPress"
+msgstr "Налаштування форуму для BuddyPress"
+
+#: includes/admin/settings.php:1043
+msgid "Custom slugs for single forums, topics, replies, tags, views, and search."
+msgstr "Довільні ярлики для окремих форумів, відповідей, тем, міток, переглядів і пошуку."
+
+#: includes/admin/settings.php:943
+msgid "Customize your user profile slugs."
+msgstr "Налаштуйте ярлики профілю вашого користувача."
+
+#: includes/admin/settings.php:916
+msgid "Topics by Freshness"
+msgstr "Список тем за свіжістю"
+
+#: includes/admin/settings.php:913
+msgid "Forum Index"
+msgstr "Список форумів"
+
+#: includes/admin/settings.php:893
+msgid "Prefix all forum content with the Forum Root slug (Recommended)"
+msgstr "Використовувати кореневий ярлик форуму в якості префікса для всього вмісту форуму (рекомендується)"
+
+#: includes/admin/settings.php:860
+msgid "Customize your Forums root. Partner with a WordPress Page and use Shortcodes for more flexibility."
+msgstr "Налаштуйте корінь ваших форумів. Комбінуйте зі сторінками WordPress і використовуйте шорткоди для більшої гнучкості."
+
+#: includes/admin/settings.php:810
+msgid "How many topics and replies to show per RSS page"
+msgstr "Кількість тем і відповідей, що показуються на одну сторінку RSS стрічки"
+
+#: includes/admin/settings.php:779 includes/admin/settings.php:795
+#: includes/admin/settings.php:826 includes/admin/settings.php:842
+msgid "per page"
+msgstr "на сторінку"
+
+#: includes/admin/settings.php:763
+msgid "How many topics and replies to show per page"
+msgstr "Кількість тем і відповідей, що показуються на одну сторінку"
+
+#: includes/admin/settings.php:748
+msgid "Embed media (YouTube, Twitter, Flickr, etc...) directly into topics and replies"
+msgstr "Вставляти медіа контент (YouTube, Twitter, Flickr, і т.д ...) безпосередньо в теми і відповіді"
+
+#: includes/admin/settings.php:732
+msgid "No template packages available."
+msgstr "Пакети тем недоступні."
+
+#: includes/admin/settings.php:728
+msgid "will serve all bbPress templates"
+msgstr "обслуговуватиме всі шаблони bbPress"
+
+#: includes/admin/settings.php:722
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: includes/admin/settings.php:698
+msgid "How your forum content is displayed within your existing theme."
+msgstr "Як контент вашого форуму показуватиметься у вашій поточній темі."
+
+#: includes/admin/settings.php:685
+msgid "Add toolbar & buttons to textareas to help with HTML formatting"
+msgstr "Додати панель інструментів і кнопки для текстових областей, щоб допомогти з HTML форматуванням."
+
+#: includes/admin/settings.php:669
+msgid "Allow topic and reply revision logging"
+msgstr "Дозволити вести журнал редакцій для тех"
+
+#: includes/admin/settings.php:652
+msgid "Enable threaded (nested) replies %s levels deep"
+msgstr "Дозволити деревовидні (вкладені) відповіді з числом рівнів %s"
+
+#: includes/admin/settings.php:613
+msgid "Allow forum wide search"
+msgstr "Дозволити розширений пошук форуму"
+
+#: includes/admin/settings.php:597
+msgid "Allow topics to have tags"
+msgstr "Дозволити використовувати мітки тем"
+
+#: includes/admin/settings.php:581
+msgid "Allow users to subscribe to forums and topics"
+msgstr "Дозволити користувачам підписуватися на форуми і теми"
+
+#: includes/admin/settings.php:565
+msgid "Allow users to mark topics as favorites"
+msgstr "Дозволити користувачам відзначати теми як обрані"
+
+#: includes/admin/settings.php:549
+msgid "Forum features that can be toggled on and off"
+msgstr "Параметри форуму, які можна включати і вимикати."
+
+#: includes/admin/settings.php:533
+msgid "Automatically give registered visitors the %s forum role"
+msgstr "Автоматично призначити зареєстрованим користувачам роль форуму %s"
+
+#: includes/admin/settings.php:499
+msgid "Allow guest users without accounts to create topics and replies"
+msgstr "Дозволити неавторизованих користувачам створювати відповіді в темах"
+
+#: includes/admin/settings.php:483 includes/common/functions.php:124
+msgid "seconds"
+msgstr "сек."
+
+#: includes/admin/settings.php:467 includes/common/functions.php:123
+msgid "minutes"
+msgstr "хв."
+
+#: includes/admin/settings.php:450
+msgid "Setting time limits and other user posting capabilities"
+msgstr "Установка тимчасових обмежень і інших можливостей публікації для користувачів"
+
+#: includes/admin/settings.php:412
+msgid "Use Akismet"
+msgstr "Використовувати Akismet"
+
+#: includes/admin/settings.php:399
+msgid "Group Forums Parent"
+msgstr "Батько форумів груп"
+
+#: includes/admin/settings.php:391
+msgid "Enable Group Forums"
+msgstr "Дозволити форуми в групах"
+
+#: includes/admin/settings.php:378
+msgid "Topic Subscriptions"
+msgstr "Підписки на теми"
+
+#: includes/admin/settings.php:370 includes/extend/buddypress/loader.php:285
+msgid "Favorite Topics"
+msgstr "Вибрані теми"
+
+#: includes/admin/settings.php:362 includes/extend/buddypress/loader.php:207
+#: includes/extend/buddypress/loader.php:277
+#: templates/default/bbpress/user-details.php:41
+msgid "Replies Created"
+msgstr "Відповіді"
+
+#: includes/admin/settings.php:354 includes/extend/buddypress/loader.php:196
+#: includes/extend/buddypress/loader.php:269
+#: templates/default/bbpress/user-details.php:35
+msgid "Topics Started"
+msgstr "Розпочаті теми"
+
+#: includes/admin/settings.php:346
+msgid "User Base"
+msgstr "База користувачів"
+
+#: includes/admin/settings.php:317
+msgid "Topic View"
+msgstr "Перегляд теми"
+
+#: includes/admin/settings.php:280
+msgid "Forum root should show"
+msgstr "На головній сторінці форуму повинен показуватися"
+
+#: includes/admin/settings.php:272
+msgid "Forum Prefix"
+msgstr "Префікс Форуму"
+
+#: includes/admin/settings.php:264
+msgid "Forum Root"
+msgstr "Корінь форуму"
+
+#: includes/admin/settings.php:209
+msgid "Current Package"
+msgstr "Поточний пакет"
+
+#: includes/admin/settings.php:190
+msgid "Reply Threading"
+msgstr "Деревовидні відповіді"
+
+#: includes/admin/settings.php:182
+msgid "Auto-embed links"
+msgstr "Авто-вставка посилань"
+
+#: includes/admin/settings.php:174
+msgid "Post Formatting"
+msgstr "Формат публікацій"
+
+#: includes/admin/settings.php:166 includes/admin/settings.php:333
+#: includes/common/template.php:2330 includes/search/template.php:225
+#: templates/default/bbpress/form-search.php:17
+msgid "Search"
+msgstr "Пошук"
+
+#: includes/admin/settings.php:158
+msgid "Topic tags"
+msgstr "Мітки тем"
+
+#: includes/admin/settings.php:150 includes/extend/buddypress/loader.php:230
+#: templates/default/bbpress/user-details.php:58
+msgid "Subscriptions"
+msgstr "Підписки"
+
+#: includes/admin/settings.php:142 includes/extend/buddypress/loader.php:218
+#: templates/default/bbpress/user-details.php:48
+msgid "Favorites"
+msgstr "Вибране"
+
+#: includes/admin/settings.php:134 includes/admin/settings.php:1690
+msgid "Revisions"
+msgstr "Редакції"
+
+#: includes/admin/settings.php:115
+msgid "Auto role"
+msgstr "Автоматична роль"
+
+#: includes/admin/settings.php:107
+msgid "Anonymous posting"
+msgstr "Анонімна публікація"
+
+#: includes/admin/settings.php:99
+msgid "Throttle posting every"
+msgstr "Затримка публікації на"
+
+#: includes/admin/settings.php:91
+msgid "Disallow editing after"
+msgstr "Заборонити редагування після"
+
+#: includes/admin/settings.php:69
+msgid "Akismet Integration"
+msgstr "Інтеграція з Akismet"
+
+#: includes/admin/settings.php:64
+msgid "BuddyPress Integration"
+msgstr "Інтеграція з BuddyPress"
+
+#: includes/admin/settings.php:59
+msgid "Forum User Slugs"
+msgstr "Ярлики користувача форуму"
+
+#: includes/admin/settings.php:54
+msgid "Single Forum Slugs"
+msgstr "Ярлики окремих форумів"
+
+#: includes/admin/settings.php:49
+msgid "Forum Root Slug"
+msgstr "Кореневий ярлик форуму"
+
+#: includes/admin/settings.php:44
+msgid "Topics and Replies Per RSS Page"
+msgstr "Тем і відповідей на сторінку RSS стрічки"
+
+#: includes/admin/settings.php:39
+msgid "Topics and Replies Per Page"
+msgstr "Тем і відповідей на сторінку"
+
+#: includes/admin/settings.php:34
+msgid "Forum Theme Packages"
+msgstr "Пакети тем форуму"
+
+#: includes/admin/settings.php:29
+msgid "Forum Features"
+msgstr "Параметри форуму"
+
+#: includes/admin/settings.php:24
+msgid "Forum User Settings"
+msgstr "Налаштування користувача форуму"
+
+#: includes/admin/replies.php:883
+msgid "Reply draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Відповідь оновлено. <a target=\"_blank\" href=\"%s\">Попередній перегляд теми</a>"
+
+#: includes/admin/replies.php:876
+msgid "Reply scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview topic</a>"
+msgstr "Відповідь запланована на: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Попередній перегляд теми</a>"
+
+#: includes/admin/replies.php:873
+msgid "Reply submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Відповідь додана. <a target=\"_blank\" href=\"%s\">Попередній перегляд теми</a>"
+
+#: includes/admin/replies.php:870
+msgid "Reply saved."
+msgstr "Збережено."
+
+#: includes/admin/replies.php:867
+msgid "Reply created. <a href=\"%s\">View topic</a>"
+msgstr "Відповідь додана. <a href=\"%s\">Дивитися тему</a>"
+
+#. translators: %s: date and time of the revision
+#: includes/admin/replies.php:863
+msgid "Reply restored to revision from %s"
+msgstr "Відновити до ревізії %s"
+
+#: includes/admin/replies.php:858
+msgid "Reply updated."
+msgstr "Відповідь оновлена"
+
+#: includes/admin/replies.php:849
+msgid "Reply updated. <a href=\"%s\">View topic</a>"
+msgstr "Відповідь оновлена. <a href=\"%s\">Дивитися тему</a>"
+
+#: includes/admin/replies.php:789 includes/admin/topics.php:859
+msgid "In all forums"
+msgstr "У всіх форумах"
+
+#: includes/admin/replies.php:779 includes/admin/topics.php:849
+msgid "Empty Spam"
+msgstr "Очистити спам"
+
+#: includes/admin/replies.php:753 includes/admin/topics.php:823
+msgid "Delete Permanently"
+msgstr "Видалити назавжди"
+
+#: includes/admin/replies.php:753 includes/admin/topics.php:823
+#: includes/replies/template.php:2053 includes/topics/template.php:2634
+msgid "Delete this item permanently"
+msgstr "Видалити назавжди"
+
+#: includes/admin/replies.php:749 includes/admin/topics.php:819
+#: includes/replies/template.php:2034 includes/topics/template.php:2615
+msgid "Trash"
+msgstr "Видалити"
+
+#: includes/admin/replies.php:749 includes/admin/topics.php:819
+#: includes/replies/template.php:2049 includes/topics/template.php:2630
+msgid "Move this item to the Trash"
+msgstr "Перемістити запис в кошик"
+
+#: includes/admin/replies.php:747 includes/admin/topics.php:817
+#: includes/replies/template.php:2035 includes/topics/template.php:2616
+msgid "Restore"
+msgstr "Відновити"
+
+#: includes/admin/replies.php:747 includes/admin/topics.php:817
+#: includes/replies/template.php:2047 includes/topics/template.php:2628
+msgid "Restore this item from the Trash"
+msgstr "Відновити цей запис з кошика"
+
+#: includes/admin/replies.php:738 includes/admin/topics.php:809
+#: includes/replies/template.php:2105 includes/topics/template.php:2872
+msgid "Spam"
+msgstr "Спам"
+
+#: includes/admin/replies.php:738
+msgid "Mark this reply as spam"
+msgstr "Помітити як спам"
+
+#: includes/admin/replies.php:736 includes/admin/topics.php:807
+msgid "Not spam"
+msgstr "Не спам"
+
+#: includes/admin/replies.php:736
+msgid "Mark the reply as not spam"
+msgstr "Відзначити відповідь, як не спам."
+
+#: includes/admin/replies.php:725 includes/admin/topics.php:776
+msgid "View"
+msgstr "Подивитися"
+
+#: includes/admin/replies.php:725 includes/admin/topics.php:776
+msgid "View &#8220;%s&#8221;"
+msgstr "Перегляд &#8220;%s&#8221;"
+
+#: includes/admin/replies.php:657
+msgid "(Mismatch)"
+msgstr "(Невідповідність)"
+
+#: includes/admin/replies.php:651 includes/admin/replies.php:666
+#: includes/admin/topics.php:687
+msgid "No Forum"
+msgstr "Немає форуму"
+
+#: includes/admin/replies.php:625 includes/admin/replies.php:633
+msgid "No Topic"
+msgstr "Нема теми"
+
+#: includes/admin/replies.php:572 includes/admin/topics.php:636
+#: templates/default/bbpress/loop-replies.php:18
+#: templates/default/bbpress/loop-replies.php:60
+#: templates/default/bbpress/loop-search.php:18
+#: templates/default/bbpress/loop-search.php:40
+msgid "Author"
+msgstr "Автор"
+
+#: includes/admin/replies.php:569
+msgid "Title"
+msgstr "Назва"
+
+#: includes/admin/replies.php:536
+msgid "Reply \"%1$s\" successfully unmarked as spam."
+msgstr "Відповідь «%1$s» успішно позначена як не спам."
+
+#: includes/admin/replies.php:536
+msgid "There was a problem unmarking the reply \"%1$s\" as spam."
+msgstr "Не вдалося помітити відповідь «%1$s» як не спам."
+
+#: includes/admin/replies.php:532
+msgid "Reply \"%1$s\" successfully marked as spam."
+msgstr "Відповідь «%1$s» успішно позначена як спам."
+
+#: includes/admin/replies.php:532
+msgid "There was a problem marking the reply \"%1$s\" as spam."
+msgstr "Не вдалося помітити відповідь «%1$s» як спам."
+
+#: includes/admin/replies.php:464 includes/admin/topics.php:488
+msgid "You do not have the permission to do that!"
+msgstr "У вас немає дозволу на цю дію!"
+
+#: includes/admin/replies.php:461
+msgid "The reply was not found!"
+msgstr "Відповідь не знайдена!"
+
+#: includes/admin/replies.php:347 includes/admin/topics.php:363
+#: templates/default/bbpress/form-anonymous.php:17
+msgid "Author Information"
+msgstr "Інформація про автора"
+
+#: includes/admin/replies.php:223
+msgid "<strong>Reply To</strong> determines the threading of the reply."
+msgstr "<strong>У відповідь на</strong> визначає ієрархію відповіді."
+
+#: includes/admin/replies.php:222
+msgid "<strong>Topic</strong> determines the parent topic that the reply belongs to."
+msgstr "<strong>Тема</strong> визначає до якої теми буде додано відповідь."
+
+#: includes/admin/replies.php:221
+msgid "<strong>Forum</strong> dropdown determines the parent forum that the reply belongs to. Select the forum, or leave the default (Use Forum of Topic) to post the reply in forum of the topic."
+msgstr "<strong>Форум</strong> випадающий список визначає батьківський форум, до якого належить відповідь. Виберіть форум, або залиште значення за замовчуванням (використовуйте тему форуму) для додавання відповіді форуму по даній темі."
+
+#: includes/admin/replies.php:219
+msgid "Select the attributes that your reply should have:"
+msgstr "Виберіть параметри, які повинен мати ваша відповідь:"
+
+#: includes/admin/replies.php:217 includes/admin/replies.php:255
+msgid "Reply Attributes"
+msgstr "Параметри відповіді"
+
+#: includes/admin/replies.php:212
+msgid "<strong>Featured Image</strong> - This allows you to associate an image with your reply without inserting it. This is usually useful only if your theme makes use of the featured image as a reply thumbnail on the home page, a custom header, etc."
+msgstr "<strong>Мініатюра</strong> - Дозволяє зв'язати зображення з вашою відповіддю, не вставляючи його в тіло повідомлення. Як правило, це корисно тільки якщо ваша тема оформлення здатна використовувати мініатюру відповіді на домашній сторінці, в довільному заголовку і т.д."
+
+#: includes/admin/replies.php:209
+msgid "<strong>Publish</strong> - You can set the terms of publishing your reply in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a reply or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a reply to be published in the future or backdate a reply."
+msgstr "<strong> Публікація</strong> - Ви можете задати умови публікації вашої відповіді у вікні публікації. Для зміни статусу, видимості, і публікації (відразу), натисніть на посилання Змінити, щоб відобразилися додаткові параметри. Видимість включає в себе варіанти захисту паролем відповіді або закріплює його в топі вашого блогу на невизначений термін (прикріплений). Публікація (відразу) дозволяє встановити майбутню або минулу дату і час, так що ви можете запланувати, чи буде відповідь опублікована в майбутньому, або заднім числом."
+
+#: includes/admin/replies.php:206
+msgid "<strong>Reply Editor</strong> - Enter the text for your reply. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your reply text. You can insert media files by clicking the icons above the reply editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular reply editor."
+msgstr "<strong>Редактор відповіді</strong> - Введіть текст вашої відповіді. Є два режими редагування: візуальний і HTML. Виберіть режим, натиснувши на відповідну вкладку. Візуальний режим надасть вам WYSIWYG редактор. Натисніть на останню іконку в рядку, щоб отримати другий рядок елементів управленія.Режим HTML дозволяє ввести чистий HTML разом з текстом вашої відповіді. Ви можете вставити мультимедійні файли, натиснувши на значки над редактором відповіді і слідуючи інструкціям. Ви можете перейти в повноекранний режим, натиснувши на кнопку (друга в верхньому ряду) або кнопкою на весь екран в режимі HTML (остання в ряду). Опинившись там, ви можете зробити видимими кнопки, підвівши курсор до верхньої частини. У звичайний режим поверне вас назад в редактор відповіді."
+
+#: includes/admin/replies.php:205
+msgid "<strong>Title</strong> - Enter a title for your reply. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr "<strong>Тема</strong> - Введіть назву вашої відповіді. Після введення назви, ви побачите постійне посилання нижче, яке можна редагувати."
+
+#: includes/admin/replies.php:203
+msgid "Title and Reply Editor"
+msgstr "Редактор тем і відповідей"
+
+#: includes/admin/replies.php:193
+msgid "The title field and the big reply editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Поле назви і велика площа редагування відповіді фіксуються на місці, але ви можете змінити всі інші блоки за допомогою перетягування, а можна згорнути або розгорнути їх, клікнувши заголовок кожного вікна. Клікніть на вкладці екрану, щоб відобразити додаткові поля (Цитата, Відправити зворотні посилання, Довільні поля, Обговорення, Ярлик, Автор) або вибрати 1 - або 2-колонки для цього екрану."
+
+#: includes/admin/replies.php:172
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected replies at once. To remove a reply from the grouping, just click the x next to its name in the Bulk Edit area that appears."
+msgstr "При використанні опції масової зміни, ви можете змінити метадані (категорії, автор і т.д.) для всіх вибраних відповідей одночасно. Щоб видалити відповідь з групи, просто натисніть на хрестик поруч з його ім'ям в області що з'явилася для масового редагування."
+
+#: includes/admin/replies.php:171
+msgid "You can also edit or move multiple replies to the trash at once. Select the replies you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Ви також можете змінити або перемістити в кошик кілька відповідей одночасно. Позначте теми, з якими необхідно провести потрібні дії, потім виберіть потрібне в меню дій і натисніть кнопку \"Застосувати\"."
+
+#: includes/admin/replies.php:162
+msgid "<strong>Preview</strong> will show you what your draft reply will look like if you publish it. View will take you to your live site to view the reply. Which link is available depends on your reply&#8217;s status."
+msgstr "<strong>Попередній перегляд</strong> покаже вам, як буде виглядати ваш варіант відповіді після публікації. Перегляд направить вас на сайт для перегляду відповіді. Яке посилання доступне - залежить від статусу вашої відповіді."
+
+#: includes/admin/replies.php:161
+msgid "<strong>Spam</strong> removes your reply from this list and places it in the spam queue, from which you can permanently delete it."
+msgstr "<strong>Спам</strong> видаляє вашу відповідь з цього списку і поміщає його в чергу спаму, з якого його можна видалити назавжди."
+
+#: includes/admin/replies.php:160
+msgid "<strong>Trash</strong> removes your reply from this list and places it in the trash, from which you can permanently delete it."
+msgstr "<strong>Кошик</strong> видаляє вашу відповідь з цього списку і поміщає його в кошик, з якого його можна видалити назавжди."
+
+#: includes/admin/replies.php:158
+msgid "<strong>Edit</strong> takes you to the editing screen for that reply. You can also reach that screen by clicking on the reply title."
+msgstr "<strong>Змінити</strong> приведе вас до екрану редагування цієї відповіді. Ви також можете досягти цього екрану, натиснувши на заголовок відповіді."
+
+#: includes/admin/replies.php:156
+msgid "Hovering over a row in the replies list will display action links that allow you to manage your reply. You can perform the following actions:"
+msgstr "При наведенні курсора на рядок в списку відповідей будуть показані посилання на дії, які дозволяють вам керувати вашою відповіддю. Ви можете виконувати наступні дії:"
+
+#: includes/admin/replies.php:147
+msgid "You can refine the list to show only replies in a specific category or from a specific month by using the dropdown menus above the replies list. Click the Filter button after making your selection. You also can refine the list by clicking on the reply author, category or tag in the replies list."
+msgstr "Ви можете уточнити список, відобразивши відповіді тільки за певний місяць за допомогою випадаючого меню над списком відповідей. Натисніть кнопку Фільтр і виберіть потрібний. Ви також можете впорядкувати список за автором, натиснувши на заголовок відповідної колонки."
+
+#: includes/admin/replies.php:146
+msgid "You can view replies in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr "Ви можете переглядати відповіді у вигляді списку назви (простий список) або з цитуванням змісту відповіді (в розгорнутому вигляді). Виберіть режим, який ви віддаєте перевагу, натиснувши на іконку в верхній частині списку праворуч."
+
+#: includes/admin/replies.php:145
+msgid "You can filter the list of replies by reply status using the text links in the upper left to show All, Published, Draft, or Trashed replies. The default view is to show all replies."
+msgstr "Ви можете фільтрувати список відповідей по статусу за допомогою текстових посилань в лівому верхньому кутку: показати все, оприлюдне чи віддалені в кошик. За замовчуванням відображаються всі відповіді."
+
+#: includes/admin/replies.php:144
+msgid "You can hide/display columns based on your needs and decide how many replies to list per screen using the Screen Options tab."
+msgstr "Ви можете приховати / показати стовпці, відповідно до ваших потреб і вибрати кількість відповідей на екран за допомогою вкладки Параметри екрану."
+
+#: includes/admin/replies.php:134
+msgid "This screen provides access to all of your replies. You can customize the display of this screen to suit your workflow."
+msgstr "Цей екран забезпечує доступ до всіх ваших відповідей. Ви можете налаштувати відображення цього екрана відповідно до вашого робочого процесу."
+
+#: includes/admin/metaboxes.php:525
+msgid "IP Address"
+msgstr "IP Адрес"
+
+#: includes/admin/metaboxes.php:524
+msgid "IP:"
+msgstr "IP:"
+
+#: includes/admin/metaboxes.php:517
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/metaboxes.php:516
+msgid "ID:"
+msgstr "ID:"
+
+#: includes/admin/metaboxes.php:509
+#: templates/default/bbpress/form-user-edit.php:57
+msgid "Website"
+msgstr "Сайт"
+
+#: includes/admin/metaboxes.php:508
+#: templates/default/bbpress/form-anonymous.php:32
+msgid "Website:"
+msgstr "Сайт:"
+
+#: includes/admin/metaboxes.php:503
+#: templates/default/bbpress/form-user-edit.php:103
+#: templates/default/bbpress/form-user-register.php:28
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/metaboxes.php:502
+msgid "Email:"
+msgstr "Email:"
+
+#: includes/admin/metaboxes.php:497
+#: templates/default/bbpress/form-user-edit.php:14
+#: templates/default/bbpress/form-user-edit.php:19
+msgid "Name"
+msgstr "Імя"
+
+#: includes/admin/metaboxes.php:496
+#: templates/default/bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr "Імя:"
+
+#: includes/admin/metaboxes.php:464
+msgid "Reply To"
+msgstr "У відповідь на"
+
+#: includes/admin/metaboxes.php:463
+msgid "Reply To:"
+msgstr "У відповідь на:"
+
+#: includes/admin/metaboxes.php:457 includes/replies/template.php:61
+msgid "Topic:"
+msgstr "Тема:"
+
+#: includes/admin/metaboxes.php:379 includes/admin/metaboxes.php:433
+#: includes/extend/buddypress/groups.php:1042 includes/topics/template.php:61
+#: templates/default/bbpress/form-topic.php:114
+msgid "Forum:"
+msgstr "Форум:"
+
+#: includes/admin/metaboxes.php:368
+msgid "Select whether to open or close the topic."
+msgstr "Виберіть: відкрити або закрити тему."
+
+#: includes/admin/metaboxes.php:356
+msgid "Topic Type"
+msgstr "Тип теми"
+
+#: includes/admin/metaboxes.php:322
+msgid "Forum Order"
+msgstr "Порядок Форума"
+
+#: includes/admin/metaboxes.php:321
+msgid "Order:"
+msgstr "Порядок:"
+
+#: includes/admin/metaboxes.php:314 includes/admin/metaboxes.php:394
+#: includes/admin/metaboxes.php:448
+msgid "&mdash; No parent &mdash;"
+msgstr "&mdash; Нема батька  &mdash;"
+
+#: includes/admin/metaboxes.php:300
+msgid "Forum Parent"
+msgstr "Батьківський Форум"
+
+#: includes/admin/metaboxes.php:299
+msgid "Parent:"
+msgstr "Батько:"
+
+#: includes/admin/metaboxes.php:285 includes/admin/metaboxes.php:286
+#: templates/default/bbpress/form-forum.php:109
+msgid "Visibility:"
+msgstr "Видимість:"
+
+#: includes/admin/metaboxes.php:273 includes/admin/metaboxes.php:274
+#: includes/admin/metaboxes.php:367
+#: templates/default/bbpress/form-forum.php:100
+msgid "Status:"
+msgstr "Статус:"
+
+#: includes/admin/metaboxes.php:261 includes/admin/metaboxes.php:262
+#: includes/admin/metaboxes.php:355
+msgid "Type:"
+msgstr "Тип:"
+
+#: includes/admin/metaboxes.php:222
+msgid "You are using <span class=\"b\">bbPress %s</span>."
+msgstr "Ви використовуєте <span class=\"b\">bbPress %s</span>."
+
+#: includes/admin/metaboxes.php:198
+msgid "Empty Topic Tag"
+msgid_plural "Empty Topic Tags"
+msgstr[0] "Порожня мітка теми"
+msgstr[1] "Порожніх мітки теми"
+msgstr[2] "Порожніх міток теми"
+
+#: includes/admin/metaboxes.php:176
+msgid "Hidden Reply"
+msgid_plural "Hidden Replies"
+msgstr[0] "Прихована відповідь"
+msgstr[1] "Прихованих відповіді"
+msgstr[2] "Прихованих відповідей"
+
+#: includes/admin/metaboxes.php:154
+msgid "Hidden Topic"
+msgid_plural "Hidden Topics"
+msgstr[0] "Прихована тема"
+msgstr[1] "Прихованих теми"
+msgstr[2] "Прихованих тем"
+
+#: includes/admin/metaboxes.php:135
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "Користувач"
+msgstr[1] "Користувача"
+msgstr[2] "Користувачів"
+
+#: includes/admin/metaboxes.php:127
+msgid "Users &amp; Moderation"
+msgstr "Користувачі та модерація"
+
+#: includes/admin/metaboxes.php:103 includes/admin/settings.php:309
+#: includes/topics/template.php:3367
+msgid "Topic Tag"
+msgid_plural "Topic Tags"
+msgstr[0] "Мітка теми"
+msgstr[1] "Мітки теми"
+msgstr[2] "Міток теми"
+
+#: includes/admin/metaboxes.php:84 includes/admin/settings.php:325
+#: includes/replies/template.php:49 includes/replies/template.php:1621
+#: includes/topics/template.php:2921
+msgid "Reply"
+msgid_plural "Replies"
+msgstr[0] "Відповідь"
+msgstr[1] "Відповіді"
+msgstr[2] "Відповідей"
+
+#: includes/admin/metaboxes.php:67 includes/admin/metaboxes.php:458
+#: includes/admin/replies.php:571 includes/admin/settings.php:301
+#: includes/topics/template.php:49
+#: templates/default/bbpress/content-single-topic-lead.php:22
+#: templates/default/bbpress/content-single-topic-lead.php:94
+#: templates/default/bbpress/loop-topics.php:19
+msgid "Topic"
+msgid_plural "Topics"
+msgstr[0] "Тема"
+msgstr[1] "Теми"
+msgstr[2] "Тем"
+
+#: includes/admin/metaboxes.php:42
+msgid "Discussion"
+msgstr "Обговорення"
+
+#: includes/admin/forums.php:563
+msgid "Forum draft updated. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
+msgstr "Форум оновлений. <a target=\"_blank\" href=\"%s\">Попередній перегляд</a>"
+
+#. translators: Publish box date format, see http://php.net/date
+#: includes/admin/forums.php:558 includes/admin/replies.php:878
+#: includes/admin/topics.php:948
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/forums.php:556
+msgid "Forum scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview forum</a>"
+msgstr "Форум запланований: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Попередній перегляд</a>"
+
+#: includes/admin/forums.php:553
+msgid "Forum submitted. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
+msgstr "Форум створено. <a target=\"_blank\" href=\"%s\">Попередній перегляд</a>"
+
+#: includes/admin/forums.php:550
+msgid "Forum saved."
+msgstr "Форум збережений."
+
+#: includes/admin/forums.php:547
+msgid "Forum created. <a href=\"%s\">View forum</a>"
+msgstr "Форум створено. <a href=\"%s\">Дивитися форум</a>"
+
+#. translators: %s: date and time of the revision
+#: includes/admin/forums.php:543
+msgid "Forum restored to revision from %s"
+msgstr "Форум відновлений до ревізії %s"
+
+#: includes/admin/forums.php:538
+msgid "Forum updated."
+msgstr "Форум оновлено."
+
+#: includes/admin/forums.php:535 includes/admin/replies.php:855
+#: includes/admin/topics.php:925
+msgid "Custom field deleted."
+msgstr "Довільне поле видалене."
+
+#: includes/admin/forums.php:532 includes/admin/replies.php:852
+#: includes/admin/topics.php:922
+msgid "Custom field updated."
+msgstr "Довільне поле оновлене."
+
+#: includes/admin/forums.php:529
+msgid "Forum updated. <a href=\"%s\">View forum</a>"
+msgstr "Форум оновлено. <a href=\"%s\">Дивитися форум</a>"
+
+#: includes/admin/forums.php:463 includes/forums/template.php:601
+msgid "No Topics"
+msgstr "Нема тем"
+
+#: includes/admin/forums.php:414 includes/admin/topics.php:638
+#: templates/default/bbpress/loop-forums.php:22
+#: templates/default/bbpress/loop-topics.php:22
+msgid "Freshness"
+msgstr "Свіжість"
+
+#: includes/admin/forums.php:413 includes/admin/replies.php:573
+#: includes/admin/topics.php:637
+msgid "Created"
+msgstr "Створено"
+
+#: includes/admin/forums.php:412
+#: templates/default/bbpress/content-single-topic-lead.php:18
+#: templates/default/bbpress/content-single-topic-lead.php:90
+msgid "Creator"
+msgstr "Автор"
+
+#: includes/admin/forums.php:411 includes/admin/settings.php:230
+#: includes/admin/settings.php:251 includes/admin/topics.php:634
+#: includes/core/theme-compat.php:646
+#: includes/extend/buddypress/activity.php:355
+#: includes/forums/template.php:2665 includes/replies/template.php:47
+#: includes/replies/template.php:48
+#: templates/default/bbpress/content-statistics.php:32
+#: templates/default/bbpress/loop-forums.php:21
+#: templates/default/bbpress/loop-replies.php:32
+#: templates/default/bbpress/loop-replies.php:70
+#: templates/default/bbpress/loop-topics.php:21
+msgid "Replies"
+msgstr "Відповіді"
+
+#: includes/admin/forums.php:410 includes/admin/settings.php:222
+#: includes/admin/settings.php:243 includes/admin/topics.php:632
+#: includes/extend/buddypress/activity.php:354
+#: includes/forums/template.php:2601 includes/topics/template.php:47
+#: includes/topics/template.php:48
+#: templates/default/bbpress/content-statistics.php:27
+#: templates/default/bbpress/loop-forums.php:20
+msgid "Topics"
+msgstr "Теми"
+
+#: includes/admin/forums.php:409 includes/admin/metaboxes.php:50
+#: includes/admin/metaboxes.php:380 includes/admin/metaboxes.php:434
+#: includes/admin/replies.php:570 includes/admin/settings.php:293
+#: includes/admin/topics.php:633 includes/extend/buddypress/groups.php:52
+#: includes/extend/buddypress/groups.php:53 includes/forums/template.php:49
+#: templates/default/bbpress/loop-forums.php:19
+msgid "Forum"
+msgstr "Форум"
+
+#: includes/admin/forums.php:217 includes/admin/replies.php:229
+#: includes/admin/topics.php:229
+msgid "Publish Box"
+msgstr "Вікно публікацій"
+
+#: includes/admin/forums.php:211
+msgid "<strong>Order</strong> allows you to order your forums numerically."
+msgstr "<strong>Порядок</strong> дозволяє розташувати форуми в числовому порядку."
+
+#: includes/admin/forums.php:210
+msgid "<strong>Parent</strong> dropdown determines the parent forum. Select the forum or category from the dropdown, or leave the default (No Parent) to create the forum at the root of your forums."
+msgstr "<strong>Батько</strong> визначає батьківський форум. Виберіть форум або категорію зі списку або залиште значення за замовчуванням (Без батька), щоб створити форум на верхньому рівні."
+
+#: includes/admin/forums.php:209
+msgid "<strong>Visibility</strong> lets you pick the scope of each forum and what users are allowed to access it."
+msgstr "<strong>Видимість</strong> дозволяє вибрати обмеження для кожного форуму і доступність його для певних користувачів."
+
+#: includes/admin/forums.php:208
+msgid "<strong>Status</strong> allows you to close a forum to new topics and forums."
+msgstr "<strong>Статус</strong> дозволяє закрити форум для нових тем і форумів."
+
+#: includes/admin/forums.php:207
+msgid "<strong>Type</strong> indicates if the forum is a category or forum. Categories generally contain other forums."
+msgstr "<strong>Тип</strong> вказується якщо форум є категорією або форумом. Категорії, як правило, містять інші форуми."
+
+#: includes/admin/forums.php:205
+msgid "Select the attributes that your forum should have:"
+msgstr "Виберіть параметри, які повинен мати ваш форум:"
+
+#: includes/admin/forums.php:203 includes/admin/forums.php:243
+msgid "Forum Attributes"
+msgstr "Параметри форуму"
+
+#: includes/admin/forums.php:198
+msgid "<strong>Featured Image</strong> - This allows you to associate an image with your forum without inserting it. This is usually useful only if your theme makes use of the featured image as a forum thumbnail on the home page, a custom header, etc."
+msgstr "<strong>Мініатюра</strong> - дозволяє задати зображення для форуму, не вставляючи його. Як правило, це корисно, тільки якщо ваша тема підтримує мініатюру для форуму на головній сторінці, призначеному для користувача заголовку і т.д."
+
+#: includes/admin/forums.php:195
+msgid "<strong>Publish</strong> - You can set the terms of publishing your forum in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a forum or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a forum to be published in the future or backdate a forum."
+msgstr "<strong>Публікація</strong> - Ви можете задати умови публікації вашого форуму у вікні публікації. Для зміни статусу, видимості, і публікації (відразу), натисніть на посилання Змінити, щоб відобразилися додаткові параметри. Видимість включає в себе варіанти захисту паролем форуму або закріплює його в топі вашого блогу на невизначений термін (прикріплений). Публікація (відразу) дозволяє встановити майбутню або минулу дату і час, так що ви можете запланувати, чи буде форум опублікований в майбутньому, або заднім числом."
+
+#: includes/admin/forums.php:192
+msgid "<strong>Forum Editor</strong> - Enter the text for your forum. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your forum text. You can insert media files by clicking the icons above the forum editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular forum editor."
+msgstr "<strong>Редактор форуму</strong> - Введіть текст Вашого форуму. Є два режими редагування: візуальний і HTML. Виберіть режим, натиснувши на відповідну вкладку. Візуальний режим надасть вам WYSIWYG редактор. Натисніть на останню іконку в рядку, щоб отримати другий рядок елементів управленія. Режим HTML дозволяє ввести чистий HTML разом з текстом вашого форуму. Ви можете вставити мультимедійні файли, натиснувши на значки над редактором форуму і слідуючи інструкціям. Ви можете перейти в повноекранний режим, натиснувши на кнопку (друга в верхньому ряду) або кнопкою на весь екран в режимі HTML (остання в ряду). Опинившись там, ви можете зробити видимими кнопки, підвівши курсор до верхньої частини. У звичайний режим поверне вас назад в редактор форуму."
+
+#: includes/admin/forums.php:191
+msgid "<strong>Title</strong> - Enter a title for your forum. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr "<strong>Заголовок</strong> - Введіть назву вашого форуму. Після введення назви, ви побачите постійне посилання нижче, яке можна редагувати."
+
+#: includes/admin/forums.php:189
+msgid "Title and Forum Editor"
+msgstr "Редактор заголовків і форумів"
+
+#: includes/admin/forums.php:183 includes/admin/replies.php:197
+#: includes/admin/topics.php:198
+msgid "Customizing This Display"
+msgstr "Налаштувати цей екран"
+
+#: includes/admin/forums.php:179
+msgid "The title field and the big forum editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Поле назви і велика площа редагування форуму фіксуються на місці, але ви можете змінити всі інші блоки за допомогою перетягування, можна згорнути або розгорнути їх, клікнувши заголовок кожного вікна. Клікніть на вкладці екрану, щоб відобразити додаткові поля (Цитата, Відправити зворотні посилання, Довільні поля, Обговорення, Ярлик, Автор) або вибрати 1 - або 2-колонки для цього екрану."
+
+#: includes/admin/forums.php:165 includes/admin/forums.php:224
+#: includes/admin/replies.php:179 includes/admin/replies.php:236
+#: includes/admin/settings.php:1597 includes/admin/topics.php:180
+#: includes/admin/topics.php:236
+msgid "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress Support Forums</a>"
+msgstr "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">Форуми підтримки bbPress</a>"
+
+#: includes/admin/forums.php:164 includes/admin/forums.php:223
+#: includes/admin/replies.php:178 includes/admin/replies.php:235
+#: includes/admin/settings.php:1596 includes/admin/topics.php:179
+#: includes/admin/topics.php:235
+msgid "<a href=\"http://codex.bbpress.org\" target=\"_blank\">bbPress Documentation</a>"
+msgstr "<a href=\"http://codex.bbpress.org\" target=\"_blank\">Документація bbPress</a>"
+
+#: includes/admin/forums.php:163 includes/admin/forums.php:222
+#: includes/admin/replies.php:177 includes/admin/replies.php:234
+#: includes/admin/settings.php:1595 includes/admin/topics.php:178
+#: includes/admin/topics.php:234
+msgid "For more information:"
+msgstr "Додаткова інформація:"
+
+#: includes/admin/forums.php:158
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected forums at once. To remove a forum from the grouping, just click the x next to its name in the Bulk Edit area that appears."
+msgstr "При використанні опції масової зміни, ви можете змінити метадані (категорії, автор і т.д.) для всіх обраних форумів одночасно. Щоб видалити форум з групи, просто натисніть на хрестик поруч з його ім'ям в області що з'явилася для масового редагування."
+
+#: includes/admin/forums.php:157
+msgid "You can also edit or move multiple forums to the trash at once. Select the forums you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Ви також можете змінити або перемістити в кошик кілька форумів одночасно. Позначте теми, з якими необхідно провести потрібні дії, потім виберіть потрібне в меню дій і натисніть кнопку \"Застосувати\"."
+
+#: includes/admin/forums.php:155 includes/admin/replies.php:169
+#: includes/admin/topics.php:170
+msgid "Bulk Actions"
+msgstr "Масові дії"
+
+#: includes/admin/forums.php:148
+msgid "<strong>View</strong> will show you what your draft forum will look like if you publish it. View will take you to your live site to view the forum. Which link is available depends on your forum&#8217;s status."
+msgstr "<strong>Попередній</strong> покаже вам, як буде виглядати ваш форум, коли ви опублікуєте його. Попередній перегляд покаже ваш сайт з новим форумом. Яке посилання буде доступне - залежить від статусу вашого форуму."
+
+#: includes/admin/forums.php:147
+msgid "<strong>Trash</strong> removes your forum from this list and places it in the trash, from which you can permanently delete it."
+msgstr "<strong>Кошик</strong> видаляє ваш форум з цього списку і поміщає його в кошик, з якого його можна видалити назавжди."
+
+#: includes/admin/forums.php:146
+msgid "<strong>Edit</strong> takes you to the editing screen for that forum. You can also reach that screen by clicking on the forum title."
+msgstr "<strong>Змінити</strong> приведе вас до екрану редагування цього форуму. Ви також можете досягти цього екрану, натиснувши на заголовок форуму."
+
+#: includes/admin/forums.php:144
+msgid "Hovering over a row in the forums list will display action links that allow you to manage your forum. You can perform the following actions:"
+msgstr "При наведенні курсора на рядок в списку форумів буде показане посилання на дії, які дозволяють вам керувати вашим форумом. Ви можете виконувати наступні дії:"
+
+#: includes/admin/forums.php:142 includes/admin/replies.php:154
+#: includes/admin/topics.php:153
+msgid "Available Actions"
+msgstr "Доступні дії"
+
+#: includes/admin/forums.php:135
+msgid "You can refine the list to show only forums from a specific month by using the dropdown menus above the forums list. Click the Filter button after making your selection. You also can refine the list by clicking on the forum creator in the forums list."
+msgstr "Ви можете уточнити список, відобразивши форуми тільки за певний місяць за допомогою меню, що випадають над списком форумів. Натисніть кнопку Фільтр і виберіть потрібний. Ви також можете впорядкувати список за автором, натиснувши на заголовок відповідної колонки."
+
+#: includes/admin/forums.php:134
+msgid "You can filter the list of forums by forum status using the text links in the upper left to show All, Published, or Trashed forums. The default view is to show all forums."
+msgstr "Ви можете фільтрувати список форумів по статусу за допомогою текстових посилань в лівому верхньому кутку: показати все, оприлюднені чи віддалені в кошик. За замовчуванням показані всі форуми."
+
+#: includes/admin/forums.php:133
+msgid "You can hide/display columns based on your needs and decide how many forums to list per screen using the Screen Options tab."
+msgstr "Ви можете приховувати / відображати стовпці в залежності від потреб і вирішити, яку кількість форумів показати в списку за допомогою вкладки \"Налаштування екрану.\""
+
+#: includes/admin/forums.php:131 includes/admin/replies.php:142
+#: includes/admin/topics.php:142
+msgid "You can customize the display of this screen&#8217;s contents in a number of ways:"
+msgstr "Ви можете налаштувати показ вмісту цих вікон в декількох варіантах:"
+
+#: includes/admin/forums.php:129 includes/admin/replies.php:140
+#: includes/admin/topics.php:140
+msgid "Screen Content"
+msgstr "Вміст екрану"
+
+#: includes/admin/forums.php:123
+msgid "This screen displays the individual forums on your site. You can customize the display of this screen to suit your workflow."
+msgstr "Цей екран відображає окремі форуми на вашому сайті. Ви можете налаштувати показ цього екрану відповідно до вашого робочого процесу."
+
+#: includes/admin/forums.php:121 includes/admin/replies.php:132
+#: includes/admin/settings.php:1549 includes/admin/topics.php:132
+msgid "Overview"
+msgstr "Огляд"
+
+#: includes/admin/converters/AEF.php:688
+#: includes/admin/converters/FluxBB.php:643
+#: includes/admin/converters/Invision.php:525
+#: includes/admin/converters/Kunena1.php:543
+#: includes/admin/converters/Kunena2.php:585
+#: includes/admin/converters/Kunena3.php:812
+#: includes/admin/converters/PHPFox3.php:649
+#: includes/admin/converters/PunBB.php:677
+#: includes/admin/converters/SMF.php:656
+#: includes/admin/converters/SimplePress5.php:537
+#: includes/admin/converters/Vanilla.php:535
+#: includes/admin/converters/XMB.php:705
+#: includes/admin/converters/XenForo.php:722
+#: includes/admin/converters/bbPress1.php:636
+#: includes/admin/converters/phpBB.php:816
+#: includes/admin/converters/vBulletin.php:652
+#: includes/admin/converters/vBulletin3.php:652
+msgid "Re: "
+msgstr "Re:"
+
+#: includes/admin/converter.php:515
+msgid "Calculating reply_to parents (%1$s - %2$s)"
+msgstr "Розрахунок відповіді батькам (%1$s - %2$s)"
+
+#: includes/admin/converter.php:511
+msgid "No reply_to parents to convert"
+msgstr "Немає батьківських відповідей для перетворення"
+
+#: includes/admin/converter.php:500
+msgid "Converting replies (%1$s - %2$s)"
+msgstr "Перетворення відповідей (%1$s - %2$s)"
+
+#: includes/admin/converter.php:496
+msgid "No replies to convert"
+msgstr "Немає відповідей для конвертації"
+
+#: includes/admin/converter.php:485
+msgid "Converting topic tags (%1$s - %2$s)"
+msgstr "Перетворення міток тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:481
+msgid "No tags to convert"
+msgstr "Немає міток для конвертації"
+
+#: includes/admin/converter.php:470
+msgid "Calculating topic super stickies (%1$s - %2$s)"
+msgstr "Підрахунок тем з позначкою \"важливо\" (%1$s - %2$s)"
+
+#: includes/admin/converter.php:466
+msgid "No super stickies to stick"
+msgstr "Нема тем з позначкою \"важливо\""
+
+#: includes/admin/converter.php:455
+msgid "Calculating topic stickies (%1$s - %2$s)"
+msgstr "Підрахунок закріплених тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:451
+msgid "No stickies to stick"
+msgstr "Немає закріплених"
+
+#: includes/admin/converter.php:440
+msgid "Converting topics (%1$s - %2$s)"
+msgstr "Перетворення тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:436
+msgid "No topics to convert"
+msgstr "Немає тем для конвертації"
+
+#: includes/admin/converter.php:425
+msgid "Calculating forum hierarchy (%1$s - %2$s)"
+msgstr "Розрахунок ієрархії форуму  (%1$s - %2$s)"
+
+#: includes/admin/converter.php:421
+msgid "No forum parents to convert"
+msgstr "Немає батьківських форумів для конвертації"
+
+#: includes/admin/converter.php:410
+msgid "Converting forums (%1$s - %2$s)"
+msgstr "Конвертувати форуми (%1$s - %2$s)"
+
+#: includes/admin/converter.php:406
+msgid "No forums to convert"
+msgstr "Немає форумів для конвертації"
+
+#: includes/admin/converter.php:391
+msgid "Delete users WordPress default passwords (%1$s - %2$s)"
+msgstr "Видалити паролі користувачів WordPress за замовчуванням (%1$s - %2$s)"
+
+#: includes/admin/converter.php:387
+msgid "No passwords to clear"
+msgstr "Немає паролів для очищення"
+
+#: includes/admin/converter.php:371
+msgid "Converting users (%1$s - %2$s)"
+msgstr "Конвертувати користувачів  (%1$s - %2$s)"
+
+#: includes/admin/converter.php:367
+msgid "No users to convert"
+msgstr "Немає користувачів для конвертації"
+
+#: includes/admin/converter.php:351
+msgid "Deleting previously converted data (%1$s - %2$s)"
+msgstr "Видалення попередніх конвертованих даних (%1$s - %2$s)"
+
+#: includes/admin/converter.php:347
+msgid "No data to clean"
+msgstr "Немає даних для очищення"
+
+#: includes/admin/converter.php:248 includes/admin/converter.php:525
+msgid "Conversion Complete"
+msgstr "Перетворення завершено"
+
+#: includes/admin/converter.php:223
+msgid "Starting Conversion"
+msgstr "Почати перетворення"
+
+#: includes/admin/converter.php:134
+msgid "Purge Previous Import"
+msgstr "Очистити попередній імпорт"
+
+#: includes/admin/converter.php:130
+msgid "Start Over"
+msgstr "Почати заново"
+
+#: includes/admin/converter.php:126
+msgid "Convert Users"
+msgstr "Конвертувати користувачів"
+
+#: includes/admin/converter.php:122
+msgid "Delay Time"
+msgstr "Затримка часу"
+
+#: includes/admin/converter.php:118
+msgid "Rows Limit"
+msgstr "Ліміт рядків"
+
+#: includes/admin/converter.php:115
+msgid "Options"
+msgstr "Опції"
+
+#: includes/admin/converter.php:111
+msgid "Table Prefix"
+msgstr "Префікс таблиць"
+
+#: includes/admin/converter.php:107
+msgid "Database Password"
+msgstr "Пароль доступу до бази даних"
+
+#: includes/admin/converter.php:103
+msgid "Database User"
+msgstr "Користувач бази даних"
+
+#: includes/admin/converter.php:99
+msgid "Database Name"
+msgstr "Ім'я бази даних"
+
+#: includes/admin/converter.php:95
+msgid "Database Port"
+msgstr "Порт бази даних"
+
+#: includes/admin/converter.php:91
+msgid "Database Server"
+msgstr "Сервер бази даних"
+
+#: includes/admin/converter.php:87
+msgid "Select Platform"
+msgstr "Вибрати платформу"
+
+#: includes/admin/converter.php:84
+msgid "Database Settings"
+msgstr "Налаштування бази даних"
+
+#: includes/admin/admin.php:1096
+msgid "You can update all the forums on your network through this page. It works by calling the update script of each site automatically. Hit the link below to update."
+msgstr "Ви можете оновити всі форуми в мережі на цій сторінці. Вона працює шляхом виклику скрипта поновлення для кожного сайту автоматично. Натисніть на посилання нижче, щоб оновити."
+
+#: includes/admin/admin.php:1078
+msgid "Next Forums"
+msgstr "Наступні форуми"
+
+#: includes/admin/admin.php:1077
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Якщо ваш браузер не завантажує наступну сторінку автоматично, натисніть на посилання:"
+
+#: includes/admin/admin.php:1053
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "Попередження! Проблеми оновлення %1$s. Ваш сервер не може підключитися до сайтів, які працюють на ньому. Повідомлення про помилку: <em>%2$s</em>"
+
+#: includes/admin/admin.php:983
+msgid "You can update your forum through this page. Hit the link below to update."
+msgstr "Ви можете оновити ваш форум через цю сторінку. Натисніть на посилання нижче, щоб оновити."
+
+#: includes/admin/admin.php:974 includes/admin/admin.php:1028
+msgid "Go Back"
+msgstr "Назад"
+
+#: includes/admin/admin.php:973 includes/admin/admin.php:1027
+msgid "All done!"
+msgstr "Все зроблено!"
+
+#: includes/admin/admin.php:962 includes/admin/admin.php:984
+msgid "Update Forum"
+msgstr "Оновлення форуму"
+
+#: includes/admin/admin.php:905
+msgid "Core Contributors to bbPress 2.5"
+msgstr "Основні розробники bbPress 2.5"
+
+#: includes/admin/admin.php:896
+msgid "Bug Testing"
+msgstr "Тестування помилок"
+
+#: includes/admin/admin.php:815
+msgid "Theme Compatibility"
+msgstr "Сумісність теми"
+
+#: includes/admin/admin.php:257 includes/admin/admin.php:258
+#: includes/admin/admin.php:266 includes/admin/admin.php:267
+msgid "Welcome to bbPress"
+msgstr "Ласкаво просимо в bbPress"
+
+#: includes/admin/admin.php:530
+msgid "Right Now in Forums"
+msgstr "Прямо зараз в форумі"
+
+#: includes/admin/admin.php:545
+msgid "About bbPress"
+msgstr "Про bbPress"
+
+#: includes/admin/admin.php:887
+msgid "Converter Specialist"
+msgstr "Спеціаліст по конвертеру"
+
+#: bbpress.php:485
+msgid "bbPress Forums"
+msgstr "Форуми bbPress"
+
+#: includes/admin/admin.php:816
+msgid "Better handling of styles and scripts in the template stack."
+msgstr "Покращена обробка стилів і скриптів в стеці шаблону."
+
+#: includes/admin/admin.php:515
+msgid "About"
+msgstr "Про плагін"
+
+#: includes/admin/admin.php:865
+msgid "bbPress is created by a worldwide swarm of busy, busy bees."
+msgstr "bbPress створюється по всьому світу роєм зайнятих, зайнятих бджіл."
+
+#: includes/admin/admin.php:867
+msgid "Project Leaders"
+msgstr "Керівники проекту"
+
+#: bbpress.php:581
+msgctxt "post"
+msgid "Spam"
+msgstr "Спам"
+
+#: includes/admin/admin.php:208 includes/admin/functions.php:277
+#: includes/admin/settings.php:1509
+msgid "Import Forums"
+msgstr "Імпорт форумів"
+
+#: bbpress.php:608
+msgctxt "post"
+msgid "Hidden <span class=\"count\">(%s)</span>"
+msgid_plural "Hidden <span class=\"count\">(%s)</span>"
+msgstr[0] "Приховані <span class=\"count\">(%s)</span>"
+msgstr[1] "Приховані <span class=\"count\">(%s)</span>"
+msgstr[2] "Приховані <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:595
+msgctxt "post"
+msgid "Orphan <span class=\"count\">(%s)</span>"
+msgid_plural "Orphans <span class=\"count\">(%s)</span>"
+msgstr[0] "Втрачені <span class=\"count\">(%s)</span>"
+msgstr[1] "Втрачені <span class=\"count\">(%s)</span>"
+msgstr[2] "Втрачені <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:405 templates/default/bbpress-functions.php:51
+msgid "bbPress Default"
+msgstr "bbPress Default"
+
+#: bbpress.php:510
+msgid "bbPress Topics"
+msgstr "Теми bbPress"
+
+#: bbpress.php:678
+msgid "Most popular topics"
+msgstr "Найпопулярніші теми"
+
+#: bbpress.php:607
+msgctxt "post"
+msgid "Hidden"
+msgstr "Приховане"
+
+#: bbpress.php:571
+msgctxt "post"
+msgid "Closed <span class=\"count\">(%s)</span>"
+msgid_plural "Closed <span class=\"count\">(%s)</span>"
+msgstr[0] "Закриті <span class=\"count\">(%s)</span>"
+msgstr[1] "Закриті <span class=\"count\">(%s)</span>"
+msgstr[2] "Закриті <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:133 bbpress.php:140
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер, чи що?"
+
+#: bbpress.php:535
+msgid "bbPress Replies"
+msgstr "bbPress Відповіді"
+
+#: includes/admin/admin.php:832 includes/admin/admin.php:936
+msgid "Go to Forum Settings"
+msgstr "Перейти до налаштувань форуму"
+
+#: includes/admin/admin.php:854
+msgid "Thank you for updating! bbPress %s is waxed, polished, and ready for you to take it for a lap or two around the block!"
+msgstr "Спасибі, що оновили! bbPress %s чистий, полірований і з нетерпінням чекає ваших команд і побажань!"
+
+#: bbpress.php:570
+msgctxt "post"
+msgid "Closed"
+msgstr "Закриті"
+
+#: bbpress.php:582
+msgctxt "post"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "Спам <span class=\"count\">(%s)</span>"
+msgstr[1] "Спам <span class=\"count\">(%s)</span>"
+msgstr[2] "Спам <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:594
+msgctxt "post"
+msgid "Orphan"
+msgstr "Втрачений об'єкт"
+
+#: bbpress.php:690
+msgid "Topics with no replies"
+msgstr "Теми без відповідей"
+
+#: includes/admin/admin.php:218 includes/admin/functions.php:281
+#: includes/admin/tools.php:1208
+msgid "Reset Forums"
+msgstr "Скидання форумів"
+
+#: includes/admin/admin.php:219
+msgid "Forum Reset"
+msgstr "Скидання форума"
+
+#: includes/admin/admin.php:233 includes/admin/admin.php:234
+#: includes/admin/admin.php:244 includes/admin/admin.php:245
+#: includes/admin/users.php:82 includes/common/widgets.php:662
+#: includes/extend/buddypress/loader.php:42
+#: includes/extend/buddypress/loader.php:175
+#: includes/extend/buddypress/loader.php:261
+#: includes/extend/buddypress/loader.php:312 includes/forums/template.php:47
+#: includes/forums/template.php:48
+#: templates/default/bbpress/content-statistics.php:22
+msgid "Forums"
+msgstr "Форуми"
+
+#: includes/admin/admin.php:280 includes/admin/admin.php:281
+#: includes/admin/admin.php:302 includes/admin/admin.php:303
+#: includes/admin/admin.php:1010 includes/admin/admin.php:1097
+msgid "Update Forums"
+msgstr "Оновлення форумів"
+
+#: includes/admin/admin.php:510
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/admin/admin.php:639
+msgctxt "admin color scheme"
+msgid "Evergreen"
+msgstr "Зелений"
+
+#: includes/admin/admin.php:720 includes/admin/admin.php:758
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: includes/admin/admin.php:776 includes/admin/admin.php:853
+msgid "Welcome to bbPress %s"
+msgstr "Ласкаво просимо в bbPress %s"
+
+#: includes/admin/admin.php:777
+msgid "Thank you for updating! bbPress %s is bundled up and ready to weather the storm of users in your community!"
+msgstr "Дякуємо що оновилися! bbPress %s вже є в комплекті і готовий до того щоб витримати хвилю користувачів вашого форуму!"
+
+#: includes/admin/admin.php:778 includes/admin/admin.php:855
+msgid "Version %s"
+msgstr "Версія %s"
+
+#: includes/admin/admin.php:782 includes/admin/admin.php:859
+msgid "What&#8217;s New"
+msgstr "Що нового"
+
+#: includes/admin/admin.php:784 includes/admin/admin.php:861
+msgid "Credits"
+msgstr "Творці"
+
+#: includes/admin/admin.php:789
+msgid "Forum Subscriptions"
+msgstr "Підписки на форум"
+
+#: includes/admin/admin.php:793
+msgid "Subscribe to Forums"
+msgstr "Підпіски на форум"
+
+#: includes/admin/admin.php:794
+msgid "Now your users can subscribe to new topics in specific forums."
+msgstr "Тепер ваші користувачі можуть підписатися на нові теми в певних форумах."
+
+#: includes/admin/admin.php:798
+msgid "Manage Subscriptions"
+msgstr "Управління підписками"
+
+#: includes/admin/admin.php:799
+msgid "Your users can manage all of their subscriptions in one convenient location."
+msgstr "Ваші користувачі можуть керувати всіма своїми підписками в одному місці."
+
+#: includes/admin/admin.php:805
+msgid "Converters"
+msgstr "Конвертери"
+
+#: includes/admin/admin.php:809
+msgid "We&#8217;re all abuzz about the hive of new importers, AEF, Drupal, FluxBB, Kunena Forums for Joomla, MyBB, Phorum, PHPFox, PHPWind, PunBB, SMF, Xenforo and XMB. Existing importers are now sweeter than honey with improved importing stickies, topic tags, forum categories and the sting is now gone if you need to remove imported users."
+msgstr "Ми все обговорюємо нових імпортерів, AEF, Drupal, FluxBB, Kunena Forums для Joomla, MyBB, Phorum, PHPFox, PHPWind, PunBB, SMF, Xenforo і XMB. Нові імпортери тепер ще солодше з покращеним імпортерством закріплень, тегів тем, категорій форумів і функція, яку застосовують, якщо ви хочете видалити імпортованих користувачів."
+
+#: includes/admin/admin.php:820
+msgid "Polyglot support"
+msgstr "Підтримка багатомовності"
+
+#: includes/admin/admin.php:821
+msgid "bbPress fully supports automatic translation updates."
+msgstr "bbPress повністю підтримує автоматичне оновлення перекладів."
+
+#: includes/admin/admin.php:825
+msgid "User capabilities"
+msgstr "Права користувачів"
+
+#: includes/admin/admin.php:826
+msgid "Roles and capabilities have been swept through, cleaned up, and simplified."
+msgstr "Ролі та права користувачів були переглянуті, почищені та спрощені."
+
+#: includes/admin/admin.php:877
+msgid "Lead Developer"
+msgstr "Провідний розробник"
+
+#: includes/admin/admin.php:872
+msgid "Founding Developer"
+msgstr "Засновник проекту"
+
+#: includes/admin/admin.php:630
+msgctxt "admin color scheme"
+msgid "Mint"
+msgstr "Салатовий"
+
+#: includes/admin/admin.php:198 includes/admin/functions.php:273
+#: includes/admin/tools.php:34
+msgid "Repair Forums"
+msgstr "Відновлення форуму"
+
+#: includes/admin/admin.php:891
+msgid "Contributing Developers"
+msgstr "Помічники розробників"
+
+#: includes/admin/admin.php:199
+msgid "Forum Repair"
+msgstr "Відновити форум"
+
+#: includes/admin/admin.php:209
+msgid "Forum Import"
+msgstr "Імпорт форуму"
+
+#: includes/admin/admin.php:882 includes/admin/admin.php:901
+msgid "Feature Developer"
+msgstr "Розробник функцій"
